@@ -4,7 +4,7 @@ Spine is an animation tool that focuses specifically on 2D animation for games
 
 * http://esotericsoftware.com/spine-quickstart
 
-<iframe src="//www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen" />
+<iframe src="//www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen" /><br>
 
 
 
