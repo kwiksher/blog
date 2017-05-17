@@ -4,9 +4,7 @@ Spine is an animation tool that focuses specifically on 2D animation for games
 
 * http://esotericsoftware.com/spine-quickstart
 
-<iframe src="https://www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen" />
-
-
+Demo https://www.youtube.com/embed/_70JQvzFfWs
 
 Photoshop-LayersToPNG.jsx exports images in a layer group. You can import the exported images to Spine
 
