@@ -6,7 +6,7 @@
 
 Here is the sample project to download 
 
-* http://kwiksher.com/daily/blog/spine/Spine_audio.zip
+* http://kwiksher.com/daily/blog/spineAudio/SpineAudio.zip
 
 * Demo https://youtu.be/88HJYue2nfQ
 
