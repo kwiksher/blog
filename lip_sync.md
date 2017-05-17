@@ -1,4 +1,4 @@
-# Spine Audio
+# Lip Sync - Spine and Papagayo
 * animation state
 * events
 * papagoya lip-sync
@@ -6,7 +6,7 @@
 
 Demo https://youtu.be/3cKILwfAZ4c
 
-## Lip Sync with Papagoya
+## Lip Sync with Papagayo
 
 Papagayo with Spine Export is available from here. 
 
@@ -16,7 +16,7 @@ Papagayo 2.0b1 with Spine Export is a fork of LostMoho/Papagayo that adds an exp
 
 * https://info.qt.io/download-qt-for-application-development
 
-### Papagoya
+### Papagayo
 
 * You can choose Spine from Export
 
