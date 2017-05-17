@@ -8,6 +8,8 @@ Here is the sample project to download
 
 * http://kwiksher.com/daily/blog/spine/Spine_audio.zip
 
+* Demo https://youtu.be/88HJYue2nfQ
+
 ## Lua
 custom/components/page01/rocket_image_.lua has addEventListner and onXXX functions.
 

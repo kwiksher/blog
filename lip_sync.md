@@ -4,7 +4,7 @@
 * papagoya lip-sync
 * spine plugin support for preview with audio
 
-<iframe src="//www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen"></iframe>
+Demo https://youtu.be/3cKILwfAZ4c
 
 ## Lip Sync with Papagoya
 

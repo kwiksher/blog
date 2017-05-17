@@ -1,4 +1,5 @@
 # Snapshot Eraser
+* Demo https://youtu.be/fFa_ZBh2-2E
 
 ### PSD - page1
 * there are two pictures as "Fall" and "Mt" layers
