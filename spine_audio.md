@@ -1,48 +1,124 @@
 # Spine Audio
-* animation state
-* events
-* papagoya lip-sync
-* spine plugin support for preview with audio
 
-## Lip Sync with Papagoya
+* when the "animation" starts, onStart event is called back. So let's play audio.
+* touching the rocket set the "launch" animation and onStop of the "animation" and onStart of the "launch" is called back 
+* during "launch" animation, "landOff" event is dispatched.
 
-Papagayo with Spine Export is available from here. 
+Here is the sample project to download 
 
-* https://github.com/SteamNGears/Papagayo
+* http://kwiksher.com/daily/blog/spine/Spine_audio.zip
 
-Papagayo 2.0b1 with Spine Export is a fork of LostMoho/Papagayo that adds an exporter for Spine. You need to Qt Creator to build the app. Qt Open Source is here.
+## Lua
+custom/components/page01/rocket_image_.lua has addEventListner and onXXX functions.
 
-* https://info.qt.io/download-qt-for-application-development
+```lua
+local spine = require("extlib.spine").new("rocket")
 
-### Papagoya
+function _M:localPos(UI)
+  local sceneGroup  = UI.scene.view
+  local layer       = UI.layer
+    
+    layer.rocket = spine:newImageRect( _K.imgDir..imagePath, imageWidth, imageHeight)
 
-* You can choose Spine from Export
+    layer.rocket.imagePath = imagePath
+    layer.rocket.x = mX
+    layer.rocket.y = mY
+    layer.rocket.alpha = oriAlpha
+    layer.rocket.oldAlpha = oriAlpha
+    layer.rocket.blendMode = ""
+    layer.rocket.oriX = layer.rocket.x
+    layer.rocket.oriY = layer.rocket.y
+    layer.rocket.oriXs = layer.rocket.xScale
+    layer.rocket.oriYs = layer.rocket.yScale
+    layer.rocket.name = "rocket"
+    
+    layer.rocket:addEventListener("touch", function (event)
+        if event.phase ~= "ended" and event.phase ~= "cancelled" then return end
+        local state = layer.rocket.state
+        local name = state:getCurrent(0).animation.name
+        if name == "animation" then
+        state:setAnimationByName(0, "launch", false)
+        elseif name == "launch" then
+        state:setAnimationByName(0, "animation", true)
+        end
+    end)
+  
+    layer.rocket.state.onStart = function(entry)
+        UI.animName  = entry.animation.name
+        UI.scene:dispatchEvent({name = "action_state_start", entry=entry })
+    end
+    
+    layer.rocket.state.onInterrupt = function(entry)
+        UI.animName  = entry.animation.name
+        UI.scene:dispatchEvent({name = "action_state_interrupt", entry=entry })
+    end
+    
+    layer.rocket.state.onEnd = function (entry)
+        UI.animName  = entry.animation.name
+        UI.scene:dispatchEvent({name = "action_state_end", entry=entry })
+    end
+    
+    layer.rocket.state.onComplete = function (entry)
+        UI.animName  = entry.animation.name
+        UI.scene:dispatchEvent({name = "action_state_complete", entry=entry })
+    end
+    
+    layer.rocket.state.onDispose = function (entry)
+        UI.animName  = entry.animation.name
+        UI.scene:dispatchEvent({name = "action_state_dispose", entry=entry })
+    end
+    
+    layer.rocket.state.onEvent = function (entry, event)
+        UI.animName  = entry.animation.name
+        UI.eventName = event.data.name
+        UI.scene:dispatchEvent({name = "action_state_event", entry=entry })
+    end
+    
+    sceneGroup.rocket = layer.rocket
+    sceneGroup:insert( layer.rocket)
 
-<img src="./img/spine_audio/spine-20-03-707.jpg" width = 600 />
+end
+```
 
-* Open JSON button to select your json data of Spine
+## Kwik
 
-<img src="./img/spine_audio/spine-20-53-590.jpg" width = 600  />
+### Variable
+* animeName and eventName receives the animation name and event name from Spine's animation state.
 
-* Select the bone to attache the mouth
+<img src="./img/spine_audio/spine 0100.jpg" width = 300 />
 
-<img src="./img/spine_audio/spine-21-49-702.jpg" width = 600  />
+animName and eventName
 
-* Import the json data with the mouse  and save the project
+<img src="./img/spine_audio/spine 0102.jpg" width = 400 />
 
-<img src="./img/spine_audio/spine-23-06-190.jpg" width = 600  />
+<img src="./img/spine_audio/spine 0103.jpg" width = 400 />
 
-* MouthShape Slot and Events are there.
+### Action
+* start, end and event actions are created.
 
-<img src="./img/spine_audio/spine-31-42-401.jpg" width = 600  />
+<img src="./img/spine_audio/spine 0101.jpg" width = 300 />
 
-* Mouth bone is centered. You need to translate it to correct position.
+state_start to play audio if "launch" animation starts
 
-<img src="./img/spine_audio/spine-39-06-178.jpg" width = 600  />
+<img src="./img/spine_audio/spine 0104.jpg" width = 600 />
+<img src="./img/spine_audio/spine 0105.jpg" width = 400 />
 
-* Now you can check the mouth animation
+state_end to stop audio if "launch" ends
 
-<img src="./img/spine_audio/spine-39-51-878.jpg" width = 600  />
+<img src="./img/spine_audio/spine 0106.jpg" width = 600 />
+
+state_event to start aonther audio and play Kwik's linear animation if receiving "landOff" event 
+
+<img src="./img/spine_audio/spine 0107.jpg" width = 600 />
+
+<img src="./img/spine_audio/spine 0109.jpg" width = 400 />
+
+## Spine
+
+"landOff" event is set at frame 20.
+
+<img src="./img/spine_audio/spine 0110.jpg" width = 600 />
+
 
 ## Spine plugin support
 you can preview animation with audio. You need to start java program to play your audio file and it communicates with Spine timeline.

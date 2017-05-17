@@ -170,7 +170,10 @@ end
 ```
 
 ###
-dialog text starts empty and setAnimationByName is added at _M:allListeners func
+* layer.dialog.text is updated onEvent function as seen above
+* dialog text starts empty and setAnimationByName is added at _M:allListeners func
+* animation track 0 and "animation" with looping true
+
 ```lua
 function _M:allListeners(UI)
   local sceneGroup  = UI.scene.view
@@ -193,3 +196,6 @@ function _M:toDispose(UI)
 
 end
 ```
+
+### Publish
+press Publish on Kwik Panel to enable the custom file injected to the built codes.

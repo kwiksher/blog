@@ -4,6 +4,9 @@ Spine is an animation tool that focuses specifically on 2D animation for games
 
 * http://esotericsoftware.com/spine-quickstart
 
+<iframe src="//www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen"></iframe>
+
+
 Photoshop-LayersToPNG.jsx exports images in a layer group. You can import the exported images to Spine
 
 * https://gist.github.com/NathanSweet/c8e2f6e1d79dedd56e8c
@@ -11,7 +14,9 @@ Photoshop-LayersToPNG.jsx exports images in a layer group. You can import the ex
 Let's create a rocket animation.
 Sample project is here. 
 
-* ./img/spine/Spine.zip
+* http://kwiksher.com/daily/blog/spine/Spine.zip
+
+
 
 Steps
 1. Create a new Kwik project
@@ -85,42 +90,86 @@ In the sample project, you can preview it with Corona simulator. Please open <st
 
 ## Kwik 
 
-Now please go back to work Kwik. Publish it to generate the lua files.
+Now please go back to work with Kwik. Publish the project to generate the lua files.
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-24_1438.png" alt="" width="300" />
 
-You find <strong>rocket_image_.lua</strong> in components/page01 folder
+You find <strong>rocket_image_.lua</strong> in build4/components/page01 folder
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-23_2308.png" alt="" width="500" />
 
-### Custom folder
-Copy and paste rocket_image_.lua to custom/components/page01 folder. (You need to create 'page01' folder by hand )
+### Custom the file
+
+* create page01 folder under \build4\custom\components\
+* copy rocket_image_.lua to  \build4\custom\components\page01
+* then edit the three functions. Add extlib.spine library, replace display.newImageRect for spine:newImageRect, add event functions.
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-24_1014.png" alt="" width="500" />
 
-Modify the custom rocket_image_.lua.  You need to use spine library and spine:newImagerect instead of display.newImageRect. Here is the modified custom/components/page01/rocket_image_.lua
-<ul>
- 	<li>line 22,  local spine = require("extlib.spine").new("rocket")</li>
- 	<li>line 28,  layer.rocket = spine:newImageRect( _K.imgDir..imagePath, imageWidth, imageHeight)</li>
-</ul>
+Modify the custom rocket_image_.lua.  You need to use spine library and spine:newImagerect instead of display.newImageRect. Here is the three parts of modified custom/components/page01/rocket_image_.lua
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1016.png" alt="" width="600" />
+```lua
+local spine = require("extlib.spine").new("rocket")
 
-* add   layer.rocket.state:setAnimationByName(0, "animation", true) -- animation track 0 set "animation" with loop true
+function _M:localPos(UI)
+  local sceneGroup  = UI.scene.view
+  local layer       = UI.layer
+    
+    layer.rocket = spine:newImageRect( _K.imgDir..imagePath, imageWidth, imageHeight)
 
-<img class="alignnone size-medium" src="./img/spine/spine 0001.jpg" alt="" width="400" />
+    layer.rocket.imagePath = imagePath
+    layer.rocket.x = mX
+    layer.rocket.y = mY
+    layer.rocket.alpha = oriAlpha
+    layer.rocket.oldAlpha = oriAlpha
+    layer.rocket.blendMode = ""
+    layer.rocket.oriX = layer.rocket.x
+    layer.rocket.oriY = layer.rocket.y
+    layer.rocket.oriXs = layer.rocket.xScale
+    layer.rocket.oriYs = layer.rocket.yScale
+    layer.rocket.name = "rocket"
+    sceneGroup.rocket = layer.rocket
+    sceneGroup:insert( layer.rocket)
+  
+end
+```
 
-* add layer.rocket:dispose() to function _M:toDispose()
+###
 
-<img class="alignnone size-medium" src="./img/spine/spine 0002.jpg" alt="" width="400" />
+* add layer.rocket.state:setAnimationByName(0, "animation", true)
+* animation track 0 and "animation" with looping true
+
+```lua
+function _M:allListeners(UI)
+  local sceneGroup  = UI.scene.view
+  local layer       = UI
+
+  layer.rocket.state:setAnimationByName(0, "animation", true)
+
+end
+```
+
+###
+dipose is added in _M:toDispose func
+```lua
+function _M:toDispose(UI)
+  local sceneGroup  = UI.scene.view
+  local layer       = UI.layer
+
+  layer.rocket:dispose()
+
+end
+```
+
+### Publish
+press Publish on Kwik Panel to enable the custom file injected to the built codes.
 
 ### Copy Spine Files
 Copy spine-corona, spine-lua folders and spine.lua in spine folder of Sample project and paste them like this
-<ul>
- 	<li>build4/extlib/spine.lua</li>
- 	<li>build4/spine-corona</li>
- 	<li>buiild4/spine-lua</li>
-</ul>
+
+* build4/extlib/spine.lua
+* build4/spine-corona
+* buiild4/spine-lua
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-24_1447.png" alt="" width="500" />
 
@@ -129,38 +178,84 @@ Publish again to make the custom file enabled to work.
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-24_1438.png" alt="" width="300" />
 
-<iframe src="//www.youtube.com/embed/_70JQvzFfWs" width="560" height="314" allowfullscreen="allowfullscreen"></iframe>
-
 ### Animation and Event Handling
-For example, the following code is to change animation by touch event. 
+For example, the following code is to change animation by touch event. You can add it to _M:localPos() function.
 
-<img src="./img/spine/spine 00011.jpg" alt="" width="500" >
-
-    layer.rocket:addEventListener("touch", function (event)
-      if event.phase ~= "ended" and event.phase ~= "cancelled" then return end
-      local state = layer.rocket.state
-      local name = state:getCurrent(0).animation.name
-      if name == "animation" then
-        state:setAnimationByName(0, "launch", false)
-      elseif name == "launch" then
-        state:setAnimationByName(0, "animation", true)
-      end
-    end)
-
+```lua
+layer.rocket:addEventListener("touch", function (event)
+    if event.phase ~= "ended" and event.phase ~= "cancelled" then return end
+    local state = layer.rocket.state
+    local name = state:getCurrent(0).animation.name
+    if name == "animation" then
+    state:setAnimationByName(0, "launch", false)
+    elseif name == "launch" then
+    state:setAnimationByName(0, "animation", true)
+    end
+end)
+```
 
 ### Animation Mix
 
 For example, the following code is loading **spineboy** sprite in rocket_image_.lua
-newImageRect function has the four argument to set animation mix to make smooth transition
+newImageRect function has the 4th argument to set animation mix to make smooth transition
 
-    local spine = require(“extlib.spine”).new(“spineboy”, “walk”) — default animation is walk
-    layer.rocket = spine:newImageRect( _K.imgDir..imagePath, imageWidth, imageHeight,
-        function(stateData)
-            stateData:setMix(“walk”, “jump”, 0.2)
-            stateData:setMix(“jump”, “run”, 0.2)
-        end)
+```lua
+local spine = require("extlib.spine").new("spineboy", "walk") -- default animation is walk
+layer.rocket = spine:newImageRect( _K.imgDir..imagePath, imageWidth, imageHeight,
+    function(stateData)
+        stateData:setMix("walk", "jump", 0.2)
+        stateData:setMix("jump", "run", 0.2)
+    end)
+```
 
-### Particles Replacement
+### Animation State Event
+you can recive the events from the animation state with the following functions. Each function dispatches the event to the corresponding action. You need to create actions with the same names below in Kwik
+
+* state_start
+* state_interrupt
+* state_end
+* state_complete
+* state_dispose
+* state_event
+
+<img class="alignnone size-medium" src="./img/spine/spine 0008.jpg" alt="" width="200" />
+
+Please add the following code to _M:localPos() function if you like to use the events
+```lua
+  layer.rocket.state.onStart = function(entry)
+    UI.animName  = entry.animation.name
+    UI.scene:dispatchEvent({name = "action_state_start", entry=entry })
+  end
+  
+  layer.rocket.state.onInterrupt = function(entry)
+    UI.animName  = entry.animation.name
+    UI.scene:dispatchEvent({name = "action_state_interrupt", entry=entry })
+  end
+  
+  layer.rocket.state.onEnd = function (entry)
+    UI.animName  = entry.animation.name
+    UI.scene:dispatchEvent({name = "action_state_end", entry=entry })
+  end
+  
+  layer.rocket.state.onComplete = function (entry)
+    UI.animName  = entry.animation.name
+    UI.scene:dispatchEvent({name = "action_state_complete", entry=entry })
+  end
+  
+  layer.rocket.state.onDispose = function (entry)
+    UI.animName  = entry.animation.name
+    UI.scene:dispatchEvent({name = "action_state_dispose", entry=entry })
+  end
+  
+  layer.rocket.state.onEvent = function (entry, event)
+    UI.animName  = entry.animation.name
+    UI.eventName = event.data.name
+    UI.scene:dispatchEvent({name = "action_state_event", entry=entry })
+  end
+
+  ```
+
+### By the way, 
 the sample project used Particles replacement. The fire layer and the background are replaced with the particles.
 
 <img class="alignnone size-medium" src="./img/spine/2017-01-23_2306.png" alt="" width="600" />
