@@ -133,7 +133,7 @@ function _M:localPos(UI)
 end
 ```
 
-###
+### allListeners func
 
 * add layer.rocket.state:setAnimationByName(0, "animation", true)
 * animation track 0 and "animation" with looping true
@@ -148,7 +148,7 @@ function _M:allListeners(UI)
 end
 ```
 
-###
+### toDispose func
 dipose is added in _M:toDispose func
 ```lua
 function _M:toDispose(UI)
@@ -220,6 +220,7 @@ you can recive the events from the animation state with the following functions.
 <img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/spine 0008.jpg" alt="" width="200" />
 
 Please add the following code to _M:localPos() function if you like to use the events
+
 ```lua
   layer.rocket.state.onStart = function(entry)
     UI.animName  = entry.animation.name
@@ -252,7 +253,7 @@ Please add the following code to _M:localPos() function if you like to use the e
     UI.scene:dispatchEvent({name = "action_state_event", entry=entry })
   end
 
-  ```
+```
 
 ### By the way, 
 the sample project used Particles replacement. The fire layer and the background are replaced with the particles.
