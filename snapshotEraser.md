@@ -21,6 +21,7 @@
 * If you change the layer name from "Fall" or "Mt", just change them at **UI.canvas** and **UI.background** variables inside _M:localPos() function.
 * You may change UI.canvas.brushSize as you like
 * You may change brush shape by setting your own png image file to createBrush() function.
+* Publish again for the custom file to be integrated to the codes.
 
 ```lua
 -- Code created by Kwik - Copyright: kwiksher.com 2016
