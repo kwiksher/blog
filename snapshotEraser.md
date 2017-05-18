@@ -8,9 +8,9 @@
 * attaching canvas to Fall layer
 * Publish and then customise the lua file of Fall canvas
 
-<img src="./img/snapshotEraser/snapshot 0000.jpg" width= 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/snapshotEraser/snapshot 0000.jpg" width= 600 />
 
-<img src="./img/snapshotEraser/snapshot 0001.jpg" width= 300 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/snapshotEraser/snapshot 0001.jpg" width= 300 />
 
 
 ### Custom Fall_canvas_.lua
