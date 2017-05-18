@@ -29,73 +29,73 @@ Steps
 1. Publish again to make the custom file enable to work
 
 ## LayersToPNG
-creating a new Kwik project and exporting the rocket parts with LayersToPNG.js<img class="alignnone size-medium" src="./img/spine/2017-01-23_1613.png" alt="" width="600" />
+creating a new Kwik project and exporting the rocket parts with LayersToPNG.js<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1613.png" alt="" width="600" />
 
 you can find layer png files and <strong>page1.json </strong>
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1614.png" alt="" width="400" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1614.png" alt="" width="400" />
 
 Open Spine and import data. You can set page1.json from Browse button and set Skeleton name as" rocket". Then click OK
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1616.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1616.png" alt="" width="600" />
 
 If Missing is displayed, you need to set the correct images folder
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1418.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1418.png" alt="" width="600" />
 
 Set the images folder path from Tree Panel &gt; Images &gt; Path
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1619.png" alt="" width="300" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1619.png" alt="" width="300" />
 
 select images folder and click Open to set the images folder.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1620.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1620.png" alt="" width="600" />
 
 Now the images are displayed
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1621.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1621.png" alt="" width="600" />
 
 
 ## Spine
 You don't need to use  background image. So make it uncheck "Export". I modified the background color transparent to focus the rocket.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1635.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1635.png" alt="" width="600" />
 
 Set the center to the origin. This is important for importing the spine animation later to Kwik/Corona
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_1659.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_1659.png" alt="" width="600" />
 
 ### Making bones
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2256.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2256.png" alt="" width="600" />
 
 Making animations. I named the animation as <strong>"animation"</strong>
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2258.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2258.png" alt="" width="600" />
 
 ### Export
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2259.png" alt="" width="300" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2259.png" alt="" width="300" />
 
 Select JSON and Create atlas checked. Output folder is <strong>"build4/assets/sprites"</strong>
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2300.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2300.png" alt="" width="600" />
 
 In the sample project, you can preview it with Corona simulator. Please open <strong>spine/main.lua</strong> with Corona simulator
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2304.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2304.png" alt="" width="600" />
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2305.png" alt="" width="300" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2305.png" alt="" width="300" />
 
 ## Kwik 
 
 Now please go back to work with Kwik. Publish the project to generate the lua files.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1438.png" alt="" width="300" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1438.png" alt="" width="300" />
 
 You find <strong>rocket_image_.lua</strong> in build4/components/page01 folder
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2308.png" alt="" width="500" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2308.png" alt="" width="500" />
 
 ### Custom the file
 
@@ -103,7 +103,7 @@ You find <strong>rocket_image_.lua</strong> in build4/components/page01 folder
 * copy rocket_image_.lua to  \build4\custom\components\page01
 * then edit the three functions. Add extlib.spine library, replace display.newImageRect for spine:newImageRect, add event functions.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1014.png" alt="" width="500" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1014.png" alt="" width="500" />
 
 Modify the custom rocket_image_.lua.  You need to use spine library and spine:newImagerect instead of display.newImageRect. Here is the three parts of modified custom/components/page01/rocket_image_.lua
 
@@ -170,12 +170,12 @@ Copy spine-corona, spine-lua folders and spine.lua in spine folder of Sample p
 * build4/spine-corona
 * buiild4/spine-lua
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1447.png" alt="" width="500" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1447.png" alt="" width="500" />
 
 ### Publish
 Publish again to make the custom file enabled to work.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1438.png" alt="" width="300" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1438.png" alt="" width="300" />
 
 ### Animation and Event Handling
 For example, the following code is to change animation by touch event. You can add it to _M:localPos() function.
@@ -217,7 +217,7 @@ you can recive the events from the animation state with the following functions.
 * state_dispose
 * state_event
 
-<img class="alignnone size-medium" src="./img/spine/spine 0008.jpg" alt="" width="200" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/spine 0008.jpg" alt="" width="200" />
 
 Please add the following code to _M:localPos() function if you like to use the events
 ```lua
@@ -257,11 +257,11 @@ Please add the following code to _M:localPos() function if you like to use the e
 ### By the way, 
 the sample project used Particles replacement. The fire layer and the background are replaced with the particles.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-23_2306.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-23_2306.png" alt="" width="600" />
 
 You can find the sample particles in CoronaSDK_Emitter_Viewer_Sample folder.
 
-<img class="alignnone size-medium" src="./img/spine/2017-01-24_1454.png" alt="" width="600" />
+<img class="alignnone size-medium" src="https://github.com/kwiksher/blog/raw/master/img/spine/2017-01-24_1454.png" alt="" width="600" />
 
 I changed the emit angle as 180 for air_stars.  Editing particles(Kaboom) on Kwik4 is only available for users who purchased a Kwik license. 
 
