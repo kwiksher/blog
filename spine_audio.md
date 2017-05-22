@@ -87,39 +87,39 @@ end
 ### Variable
 * animeName and eventName receives the animation name and event name from Spine's animation state.
 
-<img src="./img/spine_audio/spine 0100.jpg" width = 300 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0100.jpg" width = 300 />
 
 animName and eventName
 
-<img src="./img/spine_audio/spine 0102.jpg" width = 400 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0102.jpg" width = 400 />
 
-<img src="./img/spine_audio/spine 0103.jpg" width = 400 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0103.jpg" width = 400 />
 
 ### Action
 * start, end and event actions are created.
 
-<img src="./img/spine_audio/spine 0101.jpg" width = 300 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0101.jpg" width = 300 />
 
 state_start to play audio if "launch" animation starts
 
-<img src="./img/spine_audio/spine 0104.jpg" width = 600 />
-<img src="./img/spine_audio/spine 0105.jpg" width = 400 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0104.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0105.jpg" width = 400 />
 
 state_end to stop audio if "launch" ends
 
-<img src="./img/spine_audio/spine 0106.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0106.jpg" width = 600 />
 
 state_event to start aonther audio and play Kwik's linear animation if receiving "landOff" event 
 
-<img src="./img/spine_audio/spine 0107.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0107.jpg" width = 600 />
 
-<img src="./img/spine_audio/spine 0109.jpg" width = 400 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0109.jpg" width = 400 />
 
 ## Spine
 
 "landOff" event is set at frame 20.
 
-<img src="./img/spine_audio/spine 0110.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/spine_audio/spine 0110.jpg" width = 600 />
 
 
 ## Spine plugin support

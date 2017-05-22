@@ -21,31 +21,31 @@ Papagayo 2.0b1 with Spine Export is a fork of LostMoho/Papagayo that adds an exp
 
 * You can choose Spine from Export
 
-<img src="./img/lip_sync/spine-20-03-707.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-20-03-707.jpg" width = 600 />
 
 * Open JSON button to select your json data of Spine
 
-<img src="./img/lip_sync/spine-20-53-590.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-20-53-590.jpg" width = 600  />
 
 * Select the bone to attache the mouth
 
-<img src="./img/lip_sync/spine-21-49-702.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-21-49-702.jpg" width = 600  />
 
 * Import the json data with the mouse  and save the project
 
-<img src="./img/lip_sync/spine-23-06-190.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-23-06-190.jpg" width = 600  />
 
 * MouthShape Slot and Events are there.
 
-<img src="./img/lip_sync/spine-31-42-401.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-31-42-401.jpg" width = 600  />
 
 * Mouth bone is centered. You need to translate it to correct position.
 
-<img src="./img/lip_sync/spine-39-06-178.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-39-06-178.jpg" width = 600  />
 
 * Now you can check the mouth animation
 
-<img src="./img/lip_sync/spine-39-51-878.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine-39-51-878.jpg" width = 600  />
 
 ## Spine plugin support
 you can preview animation with audio. You need to start java program to play your audio file and it communicates with Spine timeline.
@@ -74,36 +74,36 @@ there are 3 layers
 * bg
 
 
-<img src="./img/lip_sync/spine 0003.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0003.jpg" width = 600  />
 
 ### Layer replaement > text
 
 dialog layer is replaced as text
 
-<img src="./img/lip_sync/spine 0004.jpg" width = 300  />
-<img src="./img/lip_sync/spine 0005.jpg" width = 400  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0004.jpg" width = 300  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0005.jpg" width = 400  />
 
 ## Project And Pages > Add Audio
 lame.wav from Papagoya tutorial's spoken audio file is added to kwik
 
-<img src="./img/lip_sync/spine 0006.jpg" width = 300  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0006.jpg" width = 300  />
 
 * Controls > Loop: times = 1
 
-<img src="./img/lip_sync/spine 0007.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0007.jpg" width = 600  />
 
 ## Project And Pages > add Action
 Creates the acitions that will be exected when Spine's animation state sends onStart, onEnd events. 
 
-<img src="./img/lip_sync/spine 0008.jpg" width = 300  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0008.jpg" width = 300  />
 
 action name is **state_start** and plays audio lame.wav
 
-<img src="./img/lip_sync/spine 0009.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0009.jpg" width = 600  />
 
 action name is **state_end** and stops the audio playing lame.wav
 
-<img src="./img/lip_sync/spine 0010.jpg" width = 600  />
+<img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0010.jpg" width = 600  />
 
 ### Custom the file 
 \build4\components\page01\face_image_.lua to be enabled for importing the spine data.
