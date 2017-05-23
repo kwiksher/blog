@@ -4,7 +4,7 @@
 * papagoya lip-sync
 * spine plugin support for preview with audio
 
-Demo https://youtu.be/3cKILwfAZ4c
+Demo https://youtu.be/WtlpPBiawa8
 Sample Project http://kwiksher.com/daily/blog/lipSync/LipSync.zip
 
 ## Lip Sync with Papagayo
