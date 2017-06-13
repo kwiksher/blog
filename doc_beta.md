@@ -28,50 +28,50 @@ the doc is still beta.
 ---
 The sample projects from Kwik3 are updated so far
 
-[Afraid.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Afraid.zip)
+[Afraid.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Afraid.zip)
 
-[AudioControl.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/AudioControl.zip)
+[AudioControl.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/AudioControl.zip)
 
-[Basketball.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Basketball.zip)
+[Basketball.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Basketball.zip)
 
-[Breakout.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Breakout.zip)
+[Breakout.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Breakout.zip)
 
-[Camera.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Camera.zip)
+[Camera.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Camera.zip)
 
-[Canvas.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Canvas.zip)
+[Canvas.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Canvas.zip)
 
-[Dialog.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Dialog.zip)
+[Dialog.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Dialog.zip)
 
-[Downloadable.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Downloadable.zip)
+[Downloadable.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Downloadable.zip)
 
-[DragOrientation.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/DragOrientation.zip)
+[DragOrientation.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/DragOrientation.zip)
 
-[FallingBalls.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/FallingBalls.zip)
+[FallingBalls.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/FallingBalls.zip)
 
-[Keyboard.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Keyboard.zip)
+[Keyboard.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Keyboard.zip)
 
-[Multi_Lingual_Sample.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Multi_Lingual_Sample.zip)
+[Multi_Lingual_Sample.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Multi_Lingual_Sample.zip)
 
-[Overlay.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Overlay.zip)
+[Overlay.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Overlay.zip)
 
-[Quiz.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Quiz.zip)
+[Quiz.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Quiz.zip)
 
-[Ragdoll.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Ragdoll.zip)
+[Ragdoll.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Ragdoll.zip)
 
-[Recording.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Recording.zip)
+[Recording.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Recording.zip)
 
-[Recording_Advanced.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Recording_Advanced.zip)
+[Recording_Advanced.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Recording_Advanced.zip)
 
-[Recording_Overlay.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Recording_Overlay.zip)
+[Recording_Overlay.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Recording_Overlay.zip)
 
-[Scroll.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Scroll.zip)
+[Scroll.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Scroll.zip)
 
-[Snow.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Snow.zip)
+[Snow.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Snow.zip)
 
-[SnowMan.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/SnowMan.zip)
+[SnowMan.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/SnowMan.zip)
 
-[Video.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/Video.zip)
+[Video.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/Video.zip)
 
-[magnetic.zip	](http://kwiksher@kwiksher.com/public_html/tutorials/Kwik4/magnetic.zip)
+[magnetic.zip	](http://kwiksher@kwiksher.com/tutorials/Kwik4/magnetic.zip)
 
 
