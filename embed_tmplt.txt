@@ -1,0 +1,5 @@
+<iframe src="//www.youtube.com/embed/WtlpPBiawa8" width="560" height="314" allowfullscreen="allowfullscreen"></iframe>
+
+Previous Blog <a href="http://kwiksher.com/blog/2017/05/21/spine-audio-control/" >Spine Audio Control </a> 
+
+[embed_markdown url="https://raw.githubusercontent.com/kwiksher/blog/master/lip_sync.md"]
