@@ -1,4 +1,4 @@
-# Template Costomization for Comic Reader
+# Template Customization for Comic Reader
 
 It is experimental how to customize the template files of Kwik4 for a comic reader.
 
