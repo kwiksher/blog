@@ -110,7 +110,7 @@ Modified template files are under components/pageXXX. Replace all the codes in l
 
 <img src="http://kwiksher.com/daily/comic1223/2016-12-23_1726.png" width=500 />
 
-* Alterntively you can check out the comic branch from gitHub https://github.com/kwiksher/kwik4tmplt/tree/comic
+* Alternatively you can check out the comic branch from gitHub https://github.com/kwiksher/kwik4tmplt/tree/comic
 
 * page_meta_comic.lua
     * The default transition duration is 3 secounds at line 10(**_Duration**).
