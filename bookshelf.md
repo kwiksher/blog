@@ -53,14 +53,14 @@ for instance, Book1 consists of 5 pages. Each page uses the same layer names of 
 ### json file - book1 model.json
 ```json
 [
-    {book:"BooK1", pages:[
-        {type:"TOC"},
-        {type:"A", shape1:{x:100, y:100, width=100, height=100}, shape2:{x:200, y:200, width=200, height=200}, 
-            audacity:xxx.txt, mp3:yyy.mp3},
-        {type:"B", shape1:{x:300, y:300, width=300, height=300}},
-        {type:"B", shape1:{x:400, y:400, width=400, height=400}},
-        {type:"A"m shape1:{x:500, y:500, width=500, height=500}, shape2:{x:600, y:600, width=600, height=600}, 
-            audacity:zzz.txt, mp3:aaa.mp3},
+    {"book":"BooK1", "pages":[
+        {"type":"TOC"},
+        {"type":"A", "shape1":{"x":100, "y":100, "width"=100, "height"=100}, "shape2":{"x":200, "y":200, "width"=200, "height"=200}, 
+            "audacity":"xxx.txt", "mp3":"yyy.mp3"},
+        {"type":"B", "shape1":{"x":300, "y":300, "width"=300, "height"=300}},
+        {"type":"B", "shape1":{"x":400, "y":400, "width"=400, "height"=400}},
+        {"type":"A", "shape1":{"x":500, "y":500, "width"=500, "height"=500}, "shape2":{"x":600, y:600, "width"=600, "height"=600}, 
+            "audacity":"zzz.txt", "mp3":"aaa.mp3"},
     ]},
 ]
 ```
