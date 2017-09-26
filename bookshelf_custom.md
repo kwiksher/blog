@@ -12,6 +12,8 @@ Modified sample project is here
     * BookServer
     * BookShelfTmplt_v
 
+* updated tmplt files can be fetched from [kwik4tmplt bookVersion branch](https://github.com/kwiksher/kwik4tmplt/tree/bookVersion)
+
 ## Model
 components/store/model.lua,  the versions are added to in M.epsodes table
 
