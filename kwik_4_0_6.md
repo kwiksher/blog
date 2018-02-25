@@ -1,7 +1,7 @@
 
 ## Kwik 4.0.6 release notes
 * New installler scripts by Kwiksher instead of ZXPInstaller. You can continue to use ZXPInstaller if you like.
-	* http://localhost:4000/kwik/toolset/installation_and_setup/installing_kwik.html
+	* http://kwiksher.com/doc/kwik/toolset/installation_and_setup/installing_kwik.html
 		* Kwik4_installer_mac.app
 		* Kwik4_installer_win.bat
 * New Proxy setting in License activation tab
