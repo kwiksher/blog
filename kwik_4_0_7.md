@@ -13,20 +13,20 @@ any issues or comments are welcome to the forum
 ---
 ## Kwik 4.0.7 release notes
 
-March 4, 2018
+### March 4, 2018
 * FIX: suspend without In App Purchase making an error
 * FIX: video, text input onComplete event
 * FIX: zip plugin call even it is not used
 * New: click the selected component name again to update component filter
 * New:NSExceptionDomains in Project Properties
 
-March 7, 2018
+### March 7, 2018
 * FIX:Animation with wait request – degraded
 * FIX: page curl code is injected in page common with auto page loading
 * FIX: prevent default true for button
 * FIX: goto page Next/Prev not setting the correct page number
 
-March 12, 2018
+### March 12, 2018
 * FIX:Animation with wait request – degraded – not in the 0307 now it is included
 * FIX:Bookshelf tmplt with version
     * copy scripts are updated too
@@ -34,7 +34,7 @@ March 12, 2018
     * copy_books.command
     * copy_books.bat
 
-March 19, 2018
+### March 19, 2018
 * Memory match updated for Kwik4
     * touchHandler.lua
     * memoryGame.lua
@@ -42,7 +42,7 @@ March 19, 2018
 * FIX vector shape’s anchor point issue
 * FIX “kwk” prefix as shared asset for kwik3’s projects. You don’t need to set again in layer properties.
 
-March 21, 2018
+### March 21, 2018
 * FIX Image Switching(Animation dissolve)
 
 ----
