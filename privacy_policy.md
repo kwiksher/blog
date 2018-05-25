@@ -23,11 +23,19 @@ Your privacy is very important to us. At Kwiksher we have a few fundamental prin
 ---
 ## What personal data we collect and why we collect it
 
-Our data storage is a self-hosted Siteground instance of WordPress, using Wordpress's database to capture and store your e-mail. We use this e-mail to notify you of our progress. You are welcome to opt-out at any time.
+* Our data storage is a self-hosted Siteground instance of WordPress, using Wordpress's database to capture and store your e-mail. We use this e-mail to notify you of our progress. You are welcome to opt-out at any time.
 
-Out hosting service - Siteground also adheres to the EU/US “Privacy Shield” policy and you can find more information about this here: [Siteground's Terms and Policies](https://www.siteground.com/terms.htm).
+* Out hosting service - Siteground also adheres to the EU/US “Privacy Shield” policy and you can find more information about this here: [Siteground's Terms and Policies](https://www.siteground.com/terms.htm).
+
+* Where you submit personal information for publication on our website, we will publish and otherwise use that information in accordance with the license you grant to us.
+
+* We will not without your express consent provide your personal information to any third parties for the purpose of direct marketing.
+ 
+* All our website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com. We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
+
 
 We may use your personal information to:
+
 1. administer the website;
 1. improve your browsing experience by personalizing the website;
 1. enable your use of the services available on the website;
@@ -40,11 +48,6 @@ We may use your personal information to:
 1. deal with enquiries and complaints made by or about you relating to the website; and
 1. other uses.
  
-    Where you submit personal information for publication on our website, we will publish and otherwise use that information in accordance with the license you grant to us.
-
-    We will not without your express consent provide your personal information to any third parties for the purpose of direct marketing.
- 
-    All our website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com. We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
 
 ### Community Forum and Comments
 * When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. 
@@ -75,6 +78,7 @@ We may use your personal information to:
 * The complete table of cookies in kwiksher.com is found at the bottom of this page. Here is the list of the names
 
     * Strictly Necessay: kwiksher.com(WP-SpamShield, gdpr-wp, woocommerce), paypal
+
         ```
         PHPSESSID
         SJECT16
