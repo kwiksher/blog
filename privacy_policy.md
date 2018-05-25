@@ -30,7 +30,7 @@ Your privacy is very important to us. At Kwiksher we have a few fundamental prin
 * Where you submit personal information for publication on our website, we will publish and otherwise use that information in accordance with the license you grant to us.
 
 * We will not without your express consent provide your personal information to any third parties for the purpose of direct marketing.
- 
+
 * All our website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com. We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
 
 
@@ -47,10 +47,10 @@ We may use your personal information to:
 1. provide third parties with statistical information about our users – but this information will not be used to identify any individual user;
 1. deal with enquiries and complaints made by or about you relating to the website; and
 1. other uses.
- 
+
 
 ### Community Forum and Comments
-* When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. 
+* When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
 
 * Comments may be checked through an automated spam detection service.
 
@@ -62,7 +62,7 @@ We may use your personal information to:
 * If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
 
 ### Showcase and Contact forms
-* Information submitted through the showcase or contact form on our site is sent to our company email, hosted by Siteground. 
+* Information submitted through the showcase or contact form on our site is sent to our company email, hosted by Siteground.
 
 * These submissions are only kept for customer service purposes they are never used for marketing purposes or shared with third parties.
 
@@ -77,7 +77,7 @@ We may use your personal information to:
 
 * The complete table of cookies in kwiksher.com is found at the bottom of this page. Here is the list of the names
 
-    * Strictly Necessay: kwiksher.com(WP-SpamShield, gdpr-wp, woocommerce), paypal
+    * Strictly Necessary: kwiksher.com(WP-SpamShield, gdpr-wp, woocommerce), paypal
 
         ```
         PHPSESSID
@@ -119,7 +119,7 @@ We may use your personal information to:
         _gat
         ```
 
-    * Advertising: doubleclick.net, adroll.com, bidswitch.net, openx.net, adnxs.com, rlcdn.com 
+    * Advertising: doubleclick.net, adroll.com, bidswitch.net, openx.net, adnxs.com, rlcdn.com
         ```
         test_cookie
         IDE
@@ -127,7 +127,7 @@ We may use your personal information to:
         tuuid
         tuuid_lu
         c
-        i 
+        i
         sess
         uuid2
         anj
@@ -163,13 +163,13 @@ We may use your personal information to:
 
 ### Paypal
 
-* Website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com. 
+* Website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com.
 
 * We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
 
 ### Money Forward
 
-* Our financial management service, Money Forward accesses Paypal for Website financial transactions in order to migrate the payment records to our account of Money Forward. You can review the Money Forward privacy policy at [www.moneryforward.com](https://corp.moneyforward.com/en/privacy/) 
+* Our financial management service, Money Forward accesses Paypal for Website financial transactions in order to migrate the payment records to our account of Money Forward. You can review the Money Forward privacy policy at [www.moneryforward.com](https://corp.moneyforward.com/en/privacy/)
 
 * We will share information with Monery Forward only to the extent necessary for our financial managemnt.
 
@@ -197,15 +197,15 @@ We may use your personal information to:
 
 ### What third parties we receive data from
 
-* We may receive information about you from third parties.  participate in a third party application or feature (such as a Facebook or Twitter application or a similar application or feature on a third party website) through which you allow us to collect (or the third party to share) information about you, including AA Data and Personal Data, such as lists of your friends, “likes”, comments you have shared, groups and location. 
+* We may receive information about you from third parties.  participate in a third party application or feature (such as a Facebook or Twitter application or a similar application or feature on a third party website) through which you allow us to collect (or the third party to share) information about you, including AA Data and Personal Data, such as lists of your friends, “likes”, comments you have shared, groups and location.
 
-* In addition, we may receive information about you if other users of a third party website give us access to their profiles and you are one of their “connections”, or information about you is otherwise accessible through your “connections” web page, profile page, or similar page on a social networking or other third party website or interactive service. 
+* In addition, we may receive information about you if other users of a third party website give us access to their profiles and you are one of their “connections”, or information about you is otherwise accessible through your “connections” web page, profile page, or similar page on a social networking or other third party website or interactive service.
 
 * We may also receive information about you from third party data providers. We may supplement the information we collect about you through this Website with such information from third parties in order to enhance our ability to serve you, to tailor our content to you or to offer you opportunities to purchase products or services that we believe may be of interest to you.
 
 ### What automated decision making and/or profiling we do with user data
 
-* we do not have a automated decision making nor a profiling wih user data 
+* we do not have a automated decision making nor a profiling wih user data
 
 ---
 ## Updates to This Privacy Policy
@@ -269,4 +269,4 @@ We may use your personal information to:
 |  anj | adnxs.com | Appnexus | Advertising | https://www.appnexus.com/en/company/cookie-policy | This cookie is used for re-targeting, optimisation, reporting and attribution of online adverts. |
 |  rtn1-z | rlcdn.com | Liveramp | Advertising | https://liveramp.com/service-privacy-policy/ | Stores a randomly assigned value to keep track of the user. Used for advertising. |
 |  rlas3 | rlcdn.com | Liveramp | Advertising | https://liveramp.com/service-privacy-policy/ | Stores a randomly assigned value to keep track of the user. Used for advertising. |
-|  ck1 | rlcdn.com | Liveramp | Advertising | https://liveramp.com/service-privacy-policy/ | Stores a randomly assigned value to keep track of the user. Used for advertising. |  
+|  ck1 | rlcdn.com | Liveramp | Advertising | https://liveramp.com/service-privacy-policy/ | Stores a randomly assigned value to keep track of the user. Used for advertising. |
