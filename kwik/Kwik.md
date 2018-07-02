@@ -3,7 +3,9 @@
 Naoya Yamamoto, Kwiksher LLP, July 2018
 </div>
 
+```
 As of an Adobe photoshop extension, Kwik simplfies the creation of interactive, animated contents as apps for iOS, Android, HTML5, Mac&Windows computers. Kwik prdouces source codes and image assets for Corona SDK that builds application binaries.
+```
 
 >Corona SDK is a product of [Corona Labs Inc.](https://coronalabs.com/)
 
