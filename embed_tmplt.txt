@@ -2,4 +2,6 @@
 
 Previous Blog <a href="http://kwiksher.com/blog/2017/05/21/spine-audio-control/" >Spine Audio Control </a> 
 
-[embed_markdown url="https://raw.githubusercontent.com/kwiksher/blog/master/lip_sync.md"]
+Which one do you like?
+
+[embed_markdown url="https://raw.githubusercontent.com/kwiksher/blog/master/bookshelf.md"]
