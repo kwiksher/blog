@@ -59,6 +59,8 @@ https://www.hexaresearch.com/research-report/e-book-market)
     * [pickatale](https://www.pickatale.com/)
     * [mori no ehon](http://ehonkan.jp/) (Japan)
 
+* [Amazon FreeTime Unlimited for Apple store](https://techcrunch.com/2018/06/22/amazon-freetime-unlimited-finally-lands-on-apples-app-store/)
+    * [Fire HD Kids 10](https://techcrunch.com/2018/06/28/amazon-adds-a-10-inch-tablet-to-its-line-of-kids-products/)
 
 * Global E-book market revenue, by genre, 2014 - 2024 (USD Billion), Hexa Resarch
 
@@ -300,6 +302,16 @@ Limited Liability Partnership started in 2014.11.25
     * It renders After Effects animations in real time,
         * [Introducing Lottie](https://airbnb.design/introducing-lottie/)
         * [BodyMovin](https://github.com/bodymovin/bodymovin)
+
+* [SpriteStudio](http://www.webtech.co.jp/eng/spritestudio/)
+
+* [Live2D](http://www.live2d.com/en/products)
+
+* [Spine](http://esotericsoftware.com/)
+
+* [Cocos Creator](http://www.cocos2d-x.org/creator)
+
+* [Unity for 2D](https://unity.com/solutions/2d)
 
 ## Corona SDK
 * [The Best 15 Mobile Game Development Platforms & Tools in 2018](https://thetool.io/2018/mobile-game-development-platforms)
