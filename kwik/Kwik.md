@@ -246,7 +246,7 @@ You can download each sample project from [kwik Tutorial](https://kwiksher.com/d
 ## Kwiksher
 Limited Liability Partnership started in 2014.11.25
 * Adddress
-    * 201 Harada Bld. 3-14-9 Higashi Ueno, Titou-ku, Tokyo 110-0015
+    * Ueno Suzuki Bld. 4F 3-16-3 Ueno, Titou-ku, Tokyo 110-0015
     * support@kwiksher.com
     * https://kwiksher.com
     * Social
