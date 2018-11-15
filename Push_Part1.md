@@ -56,6 +56,7 @@ end
 ---
 #### init
 replace the following id&number with yours
+
 * OneSignal AppID: b2f7f966-d8cc-11e4-bed1-df8f05be55ba
 * Google Project number (for Android) :703322744261
 ```
@@ -87,6 +88,7 @@ end)
 ```
 
 if pushuToken is  nil , there was a connection issue or on iOS notification permissions were not accepted.
+
 * does the provisioning profile contains push?
 * app is built with the provisining profile
 * is the provisioning profile installed in the real device?
