@@ -1,4 +1,4 @@
-### Part 2 - OneSignal Corona SDK Push Notification Plugin Example
+### Part 2 - OneSignal API supported 
 
 [Part1](Part1.md) descirbed a basic setting to receive a push notification.
 
