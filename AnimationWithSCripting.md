@@ -6,7 +6,7 @@ I am hosting Adobe Animate Meetup in Tokyo on Feb 12, 2019. I looked over a book
 # Animation With Scripting For Adobe Flash Professional CS5 Studio Techniques
 Chris Geornenes and Justin Putney Copyright @2011
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/flash_book/flashbook_big.jpg" width = 600 />
+<img src="https://github.com/kwiksher/blog/raw/master/img/flash_book/flashbook_big.jpg" width = 300 />
 
 
 The mere formulation of a problem is far more often essential than its solution, which may be merely a matter of mathematical or experimental skill.  -- Albert Einstein
