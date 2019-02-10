@@ -1,7 +1,9 @@
 I am hosting Adobe Animate Meetup in Tokyo on Feb 12, 2019. I looked over a book of Flash from Ajar Productions. Also reviewing [Animate CC 2019](https://theblog.adobe.com/announcing-adobe-animate-cc-2019/), a new age of animation is coming.
+
 * https://ajarproductions.com/blog/flash-extensions/
 
 * https://ajarproductions.com/blog/2010/09/13/animation-for-flash-now-shipping/
+
 ----
 # Animation With Scripting For Adobe Flash Professional CS5 Studio Techniques
 Chris Geornenes and Justin Putney Copyright @2011
