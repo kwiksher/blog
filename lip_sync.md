@@ -5,7 +5,7 @@
 * spine plugin support for preview with audio
 
 Demo https://youtu.be/WtlpPBiawa8
-Sample Project http://kwiksher.com/daily/blog/lipSync/LipSync.zip
+Sample Project https://kwiksher.com/daily/blog/lipSync/LipSync.zip
 
 ## Lip Sync with Papagayo
 
@@ -76,7 +76,7 @@ there are 3 layers
 
 <img src="https://github.com/kwiksher/blog/raw/master/img/lip_sync/spine 0003.jpg" width = 600  />
 
-### Layer replaement > text
+### Layer replacement > text
 
 dialog layer is replaced as text
 
