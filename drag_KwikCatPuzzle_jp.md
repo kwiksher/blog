@@ -6,11 +6,11 @@ Bojan Živković 氏のパズルピースの作成のフォトショップのツ
 
 * https://exchange.adobe.com/creativecloud.details.12143.free-puzzle-pieces.html
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-09-37-12.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-09-37-12.png" width="600">
 
 Kwikでジグゾーパズルのアプリを作りましょう。また オンラインの印刷サービスで本物のジグゾーパズルを作ってくれるところもあります。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-09-41-50.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-09-41-50.png" width="600">
 
 ### puzzle pieces ATN
 
@@ -18,15 +18,15 @@ Kwikでジグゾーパズルのアプリを作りましょう。また オンラ
 
 サンプルプロジェクトの車に乗った猫の PSDファイルのサイズは 1920 x 1280です。これは Kwik4のデフォルトである Ultimate Config(UC @4x)のサイズです。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-09-50-20.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-09-50-20.png" width="600">
 
 free-puzzle piecesのATNを開きます。そして  **3:2 Aspect Ratio > 24 pieces(6x4)**, を選択します。これで 4行 x 6列のピースが作成されます。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-09-56-16.png" width="400">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-09-56-16.png" width="400">
 
 作成された各ピースのレイヤーは  A1 から D6 までの２４個のレイヤーです。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-00-38.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-00-38.png" width="600">
 
 このPSDファイルを保存して、Kwikのページに登録します。
 
@@ -50,9 +50,9 @@ page4_puzzle.psd が最初のジグゾーパズルのページです。次のpag
     * 戻るボタン 001-page4_puzzle ページに遷移
     * 車のアニメーション
 
-    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-08-08.png" width="600">
+    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-08-08.png" width="600">
 
-    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-09-07.png" width="600">
+    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-09-07.png" width="600">
 
 ### 準備
 
@@ -85,7 +85,7 @@ page4_puzzle.psd が最初のジグゾーパズルのページです。次のpag
 
 drag_795を A1 レイヤーに設定
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-33-42.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-33-42.png" width="600">
 
 
 onComplete アクションを作成
@@ -95,11 +95,11 @@ onComplete アクションを作成
     * 待ち 2 秒
     * 時間 1 秒
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-36-57.png" width="600">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-36-57.png" width="600">
 
 ドラッグとアクションの２つのコンポネントを作成して、パプリッシュします。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-39-52.png" width="300">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-39-52.png" width="300">
 
 ---
 ### custom code の設定
@@ -107,18 +107,18 @@ onComplete アクションを作成
 
 1. build4/components/page001/xxx_drag.lua をコピーして  buld4/**custom**/components/page001/xxx_drag.lua として配置します。
 
-    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-43-53.png" width="600">
+    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-43-53.png" width="600">
 
 2.  xxx_drag.lua が custom/components/page01 ファルダ内に配置されました。
 
-    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-44-49.png" width="600">
+    <img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-44-49.png" width="600">
 
  この **xxx_drag.lua** を編集します。テキストエディターを使用して、下記のコードに入れ替えます。コード全てを入れ替えてください。保存します。
 
 
 再度 KwikのPublish を行ってください。パブリッシュを行うことで カスタムコードが組み込まれます。
 
-<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw/2019-07-27-10-39-52.png" width="300">
+<img src="https://github.com/kwiksher/blog/raw/master/img/jig_saw_jp/2019-07-27-10-39-52.png" width="300">
 
 以上です。
 
