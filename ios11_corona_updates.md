@@ -1,6 +1,8 @@
 # iOS 11 and Corona SDK updates
 
-I have been aware of iOS11 and Corona SDK updates for Kwik to follow up. It passed a few month since their updates, I am late but here is the information from Coroba Labs.
+I have been aware of iOS11 and Corona SDK updates for Kwik to follow up. It passed a few month since their updates, I am late but here is the information from Coroba Labs. 
+
+DEC.5.2017
 
 # Icon & Safe areas
 
@@ -16,7 +18,7 @@ I have been aware of iOS11 and Corona SDK updates for Kwik to follow up. It pass
                 xcassets = "Images.xcassets",
         ```
     * iPhone X
-        * total area 360x693. Need to enlarge the background image 
+        * total area 360x694. Need to enlarge the background image 
 
 ## Launch image/CoronaSplash image
 You need to purchase CoronaSplashControl plugin if you want to  display your own splash screen instead of corona labs' default image.
@@ -73,8 +75,8 @@ On iOS:
 * create Icon-1024.png Curren Kwik does not generate it automatically from Project settings
 * please read  [Images.xcassets](https://docs.coronalabs.com/guide/distribution/xcAssets/index.html) doc on corona labs and create the icon assets
     * build.settings > xcassets = "Images.xcassets"
-* enlarge you background image 360x693. It means 
-    * 360 × 693  @1x
+* enlarge you background image 360x694. It means 
+    * 360 × 694  @1x
     * 720 × 1386 @2x 
     * 1440 × 2772 @4x
 * purchase [CoronaSplashControl plugin](https://docs.coronalabs.com/plugin/CoronaSplashControl/index.html) if you want to use own splash image

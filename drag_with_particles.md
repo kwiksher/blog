@@ -14,7 +14,7 @@ Sample: https://kwiksher.com/tutorials/Kwik4/Drag_with_particles.zip
 ---
 ## 1. Particles
 
-Parcile Replacement to Circle shape
+Particle Replacement to Circle shape
 
 <img src="https://raw.githubusercontent.com/kwiksher/blog/master/img/drag_with_particles/drag 05.jpg">
 

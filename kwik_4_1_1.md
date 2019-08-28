@@ -19,7 +19,7 @@ relased on 3rd of September, 2018
 
     * https://docs.coronalabs.com/guide/distribution/localization/index.html
 
-    * en.lproj, ja.lproj folders are created under build4 folder. Kwik generates them from the language codes set in Project Properties > Languages
+      * en.lproj, ja.lproj folders are created under build4 folder. Kwik generates them from the language codes set in Project Properties > Languages
 
 Update Doc
 * https://kwiksher.com/doc/kwik/toolset/project_and_pages/project_properties/publish.html
