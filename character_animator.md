@@ -6,6 +6,8 @@ You need the latest Kwik4. Corona runs at 30 fps. You can check it with debug pr
 print( display.fps )  
 ```
 
+However if you create hundreds of pngs with full screen size, the app size becomes huge. Be careful.
+
 ## In Character Animator
 
 * A background psd file is added. 
