@@ -1,6 +1,10 @@
 This new feature in Video replacement supports to play PNG sequence files generated from Adobe Character Animator or any other software.
 
-You need the latest Kwik4.
+You need the latest Kwik4. Corona runs at 30 fps. You can check it with debug print in a lua file.
+
+```lua
+print( display.fps )  
+```
 
 ## In Character Animator
 
@@ -40,6 +44,9 @@ You need the latest Kwik4.
 
     <img src="https://github.com/kwiksher/blog/raw/master/character_animator/2019-08-28-14-46-23.png" width="400">
 
+### Actions
+
+* Video action: play and pause work for PNG sequence too. rewind is not supported.
 
 Publish and Enjoy!
 
