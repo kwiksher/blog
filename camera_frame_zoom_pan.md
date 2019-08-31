@@ -58,6 +58,8 @@ That's all.
 ---
 Other kwik4 tutorials for page transition
 
+* [Background layer](https://kwiksher.com/doc/getting_startted/guidelines/screenshot/)
+    * Kwik.ATN for resizing the canvas size of a PSD could be useful to view the entire background layer
 * [A Four Panel Cartoon](https://kwiksher.com/doc/kwik_tutorial/page_controls/comic_simple/)
 * [Comic Advanced](https://kwiksher.com/doc/kwik_tutorial/page_controls/comic_tmplt/)
 * [Swipe and Go to Page](https://kwiksher.com/blog/2018/08/16/swpe-and-gotopage/)
