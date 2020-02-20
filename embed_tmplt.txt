@@ -5,3 +5,5 @@ Previous Blog <a href="http://kwiksher.com/blog/2017/05/21/spine-audio-control/"
 Which one do you like?
 
 [embed_markdown url="https://raw.githubusercontent.com/kwiksher/blog/master/bookshelf.md"]
+
+[embed_markdown url="https://raw.githubusercontent.com/kwiksher/blog/master/character_animator.md"]
