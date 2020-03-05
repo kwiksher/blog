@@ -218,7 +218,7 @@ We may use your personal information to:
     ```
     Kwiksher LLP
     Attn: Privacy
-    201 Harada Bld. 3-14-9 Higashi Ueno, Titou-ku, Tokyo 110-0015
+    Ueno Suzuki Bldg. 4F, 3-16-3, Ueno,, Titou-ku, Tokyo 110-0005
     ```
 
 ---
