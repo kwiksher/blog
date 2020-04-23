@@ -35,7 +35,6 @@ Alternatively use a global varibale set with Kwik
 * myDispatcher.lua in the button of overlay
     ```lua
     ---
-    local _K = require 'Application'
     _K.myVar = "Changed From Overlay"
     ---
     ```
