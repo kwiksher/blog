@@ -57,12 +57,12 @@
 
     * onsignal_setSubscription.lua for button action
     ```lua
-        local enable = UI.enableSubscripton
+        local enable = UI.enableSubscription
         OneSignal.SetSubscription(enable)
     ```
 
 ### Note
-if you want to display message in a text layer of a page instead of native.showAlart, it can be done with associating notifiedMessage varible to a dynamic text replacement.
+if you want to display message in a text layer of a page instead of native.showAlert, it can be done with associating notifiedMessage variable to a dynamic text replacement.
 
 when a message is received, open the page with showOverlay function
 
@@ -74,7 +74,7 @@ when a message is received, open the page with showOverlay function
     * Name: hideBtn
     * external code close_overlay.lua
 
-however, push notification comes anytime, it would be a trouble when the page with the dynmic text is not loaed yet. You may open the page by composer.showOverlay function. For instance, if you want to show the pushed message on page1, use the init code below
+however, push notification comes anytime, it would be a trouble when the page with the dynamic text is not loaded yet. You may open the page by composer.showOverlay function. For instance, if you want to show the pushed message on page1, use the init code below
 
 * onesignal_init.lua for main.lua
 

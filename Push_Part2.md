@@ -12,7 +12,7 @@ moreover
 * PromptLocation function to get a user's permission for location and send the location info to OneSignal
 * SendTag function
 
-your may post a nification via OneSignal to others by
+your may post a nofication via OneSignal to others by
 * PostNotification function
 
 ---
