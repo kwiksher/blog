@@ -86,32 +86,33 @@ Codes
 
     the second line sets the storyboard directory and the filename. You need to copy it to build4\assets folder manually
 
-    ```lua
-    local storyboards = {}
-    storyboards["spring02"] = {dir="assets/storyboards/spring02", file="spring02.storyboarder"}
+```lua
+local storyboards = {}
+storyboards["spring02"] = {dir="assets/storyboards/spring02", file="spring02.storyboarder"}
+--
+_K.showStoryboard = function(event)
+    local composer = require("composer")
+    composer.hideOverlay() -- if there has been another overlay opened
     --
-    _K.showStoryboard = function(event)
-        local composer = require("composer")
-        composer.hideOverlay() -- if there has been another overlay opened
-        --
-        if _K.storyboardState == "pause" then
-        _K.storyboardState = nil
-        else
-        _K.storyboardIndex = 1
-        end
-        --
-        sceneGroup.alpha = 0.01
-        --
-        _K.storyboardDir = storyboards[event.storyboard].dir
-        _K.storyboardFile = storyboards[event.storyboard].file
-        _K.curPage        = UI.curPage
-        --
-        composer.showOverlay("views.page02Scene") -- viewer
-        --
+    if _K.storyboardState == "pause" then
+    _K.storyboardState = nil
+    else
+    _K.storyboardIndex = 1
     end
+    --
+    sceneGroup.alpha = 0.01
+    --
+    _K.storyboardDir = storyboards[event.storyboard].dir
+    _K.storyboardFile = storyboards[event.storyboard].file
+    _K.curPage        = UI.curPage
+    --
+    composer.showOverlay("views.page02Scene") -- viewer
+    --
+end
 
-    Runtime:addEventListener("showStoryboard", _K.showStoryboard)
-    ```
+Runtime:addEventListener("showStoryboard", _K.showStoryboard)
+```
+
 ---
 ## viewer
 
