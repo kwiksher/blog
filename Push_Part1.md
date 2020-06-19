@@ -25,11 +25,6 @@ settings = {
     {
         publisherId = "com.onesignal"
     },
-		["plugin.google.play.services"] =
-		{
-			publisherId = "com.coronalabs",
-			supportedPlatforms = { android=true, ["android-kindle"]=true }
-		},
   },
 }
 ```
@@ -51,7 +46,7 @@ end
 * addionalData is a key/value pair of OneSignal message
 * isActive 
     * true if app is in active foreground
-    * false if app is in backgroud or not running when a notification is received
+    * false if app is in background or not running when a notification is received
 
 ---
 #### init
@@ -60,15 +55,14 @@ replace the following id&number with yours
 * OneSignal AppID: b2f7f966-d8cc-11e4-bed1-df8f05be55ba
 * Google Project number (for Android) :703322744261
 ```
-OneSignal.DisableAutoRegister()
 OneSignal.Init("b2f7f966-d8cc-11e4-bed1-df8f05be55ba", "703322744261", DidReceiveRemoteNotification)
-OneSignal.EnableInAppAlertNotification(true)
 ```
 
 ---
 #### Butoon - Get Ids
 pressing the button to enable user to receive Notification
 ```
+OneSignal.DisableAutoRegister()
 OneSignal.RegisterForNotifications()
 ```
 
@@ -83,6 +77,8 @@ OneSignal.IdsAvailableCallback( function (userId, pushToken)
     print("userId:" .. userId)
     if (pushToken) then
         print("pushToken:" .. pushToken)
+	else
+		native.showAlert("error", "push token is nil", { "OK" } )
     end
 end)
 ```
