@@ -2,7 +2,7 @@
 
 the puzzle layer in page1.psd will become a crossword with the external codes for user to trace each letters of words with the finger. The sample kwik project is here
 
-* https://kwiksher.com/tutorials/Kwik4/Crossoword.zip
+* https://kwiksher.com/tutorials/Kwik4/Crossword.zip
 
 put these folders to your build4 folder
 
