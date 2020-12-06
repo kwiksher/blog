@@ -1,37 +1,50 @@
 Solar2DTux/external
     * CryptoPP
+        * cryptopp-master
     * openssl
+        * openssl-1.1.1h
     * curl
         * curl-7.64.1
+    * wx
+        * wxWidgets-3.1.4
 
 wxWidgets
     https://wiki.wxwidgets.org/Compiling_and_getting_started
     https://yasriady.blogspot.com/2015/10/how-to-build-wxwidgets-for-raspberry-pi.html
 
+        cd external/wx/wxWidgets-3.1.4
+        mk gtk-build
+        cd gtk-build
+
     static
 
-        ../configure --prefix=$(pwd)/../../ --with-opengl --disable-unicode --disable-shared  --disable-std_string CXX="g++ -O0 -g3  -std=c++11"
+        ../configure --prefix=$(pwd)/../../../../platform/linux --with-opengl --disable-shared  CXX="g++ -O2 -g3  -std=c++11"
         make -j 3
-        make install
+        make instal
 
-        ar -rcs libwx_gtk3u-3.1.a *.o
 
     so
-
-        ../configure --prefix=/home/kwiksher/Documents/wxWidgets-3.1.4/lib/gtk3_so --with-opengl --disable-std_string CXX="g++ -O0 -g3  -std=c++11"
+     
+        ../configure --prefix=$(pwd)/../../../platform/linux --with-opengl  CXX="g++ -O2 -g3  -std=c++11"
         make -j 3
         make install
 
+    wx-config --libs
+    
+        -L/usr/lib/aarch64-linux-gnu -pthread   -lwx_gtk3u_xrc-3.0 -lwx_gtk3u_html-3.0 -lwx_gtk3u_qa-3.0 -lwx_gtk3u_adv-3.0 -lwx_gtk3u_core-3.0 -lwx_baseu_xml-3.0 -lwx_baseu_net-3.0 -lwx_baseu-3.0 
 
-    unicode so
+        -L/home/kwiksher/Documents/wxWidgets-3.1.4/gtk-build/lib
 
-        ../configure --prefix=/home/kwiksher/Documents/wxWidgets-3.1.4/lib/gtk3_so_unicode --with-opengl --disable-std_string --enable--unicode CXX="g++ -O0 -g3  -std=c++11"
-        make -j 3
-        make install
+    options
+
+        --disable-std_string
+        ar -rcs libwx_gtk3u-3.1.a *.o
 
 openssl
     https://wiki.openssl.org/index.php/Compilation_and_Installation
-    ./config --prefix=$(pwd)/../../../platform/linux/lib --openssldir=/usr/local/ssl
+    
+    cd external/openssl/openssl-1.1.1h
+    ./config --prefix=$(pwd)/../../../platform/linux --openssldir=/usr/local/ssl
     make depend
     make all
     make install
@@ -40,15 +53,19 @@ curl
     https://curl.se/docs/install.html
     https://raspberrypi.stackexchange.com/questions/96646/installing-multiple-versions-of-curl-on-raspbian-stretch
 
-    ./configure --prefix=$(pwd)/../../platform/linux/lib  --with-ssl=/usr/local/ssl --enable-libcurl-option
+    cd external/curl/curl-7.64.1
+    ./configure --prefix=$(pwd)/../../../platform/linux  --enable-libcurl-option 
+    make
+    make install
 
 CryptoPP
     https://www.cryptopp.com/wiki/Linux_(Command_Line)
     https://github.com/weidai11/cryptopp/blob/master/Install.txt
 
+    cd external/CryptoPP/cryptopp-master
     export CXXFLAGS="-DNDEBUG -std=c++11"
     make libcryptopp.a  
-    make install PREFIX=$(pwd)/../linux
+    make install PREFIX=$(pwd)/../../../platform/linux
 
 codelite
     https://github.com/eranif/codelite
@@ -64,6 +81,9 @@ codelite
 
 
 Solar2DTux/plaform/linux
+
+    ln -s ./include/wx-3.1/wx
+
     Solar2DSimulator
         linux_rtt.project
     
