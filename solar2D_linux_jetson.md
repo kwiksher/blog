@@ -1,6 +1,6 @@
 Solar2DTux/external
     * CryptoPP
-        * cryptopp-master
+        * cryptopp-CRYPTOPP_8_2_0
     * openssl
         * openssl-1.1.1h
     * curl
@@ -16,29 +16,25 @@ wxWidgets
         mk gtk-build
         cd gtk-build
 
+            build.sh
+            ```
+            ./configure --with-opengl --with-gtk3 --disable-shared --enable-monolithic --enable-webview --enable-webviewwebkit --enable-mediactrl
+
+            sudo apt-get install freeglut3-dev
+            sudo apt-get install libglw1-mesa libglw1-mesa-dev
+            ```
+    
     static
 
-        ../configure --prefix=$(pwd)/../../../../platform/linux --with-opengl --disable-shared  CXX="g++ -O2 -g3  -std=c++11"
+        ../configure --prefix=$(pwd)/../../../../platform/linux --with-opengl --disable-shared --enable-monolithic --enable-webview --enable-webviewwebkit --enable-mediactrl  CXX="g++ -O2 -g3  -std=c++11"
         make -j 3
         make instal
-
-
-    so
-     
-        ../configure --prefix=$(pwd)/../../../platform/linux --with-opengl  CXX="g++ -O2 -g3  -std=c++11"
-        make -j 3
-        make install
-
-    wx-config --libs
     
-        -L/usr/lib/aarch64-linux-gnu -pthread   -lwx_gtk3u_xrc-3.0 -lwx_gtk3u_html-3.0 -lwx_gtk3u_qa-3.0 -lwx_gtk3u_adv-3.0 -lwx_gtk3u_core-3.0 -lwx_baseu_xml-3.0 -lwx_baseu_net-3.0 -lwx_baseu-3.0 
+    shared for webkit2_extu
 
-        -L/home/kwiksher/Documents/wxWidgets-3.1.4/gtk-build/lib
-
-    options
-
-        --disable-std_string
-        ar -rcs libwx_gtk3u-3.1.a *.o
+        ../configure --prefix=$(pwd)/../../../../platform/linux --with-opengl  --enable-webview --enable-webviewwebkit --enable-mediactrl  CXX="g++ -O2 -g3  -std=c++11"
+        make -j 3
+        make instal
 
 openssl
     https://wiki.openssl.org/index.php/Compilation_and_Installation
@@ -54,9 +50,10 @@ curl
     https://raspberrypi.stackexchange.com/questions/96646/installing-multiple-versions-of-curl-on-raspbian-stretch
 
     cd external/curl/curl-7.64.1
-    ./configure --prefix=$(pwd)/../../../platform/linux  --enable-libcurl-option 
+    ./configure --prefix=$(pwd)/../../../platform/linux  CPPFLAGS="-I../../../platform/linux/include/openssl" LDFLAGS="-L../../../platform/linux/lib"  --with-ssl --disable-shared
     make
     make install
+
 
 CryptoPP
     https://www.cryptopp.com/wiki/Linux_(Command_Line)
@@ -66,6 +63,7 @@ CryptoPP
     export CXXFLAGS="-DNDEBUG -std=c++11"
     make libcryptopp.a  
     make install PREFIX=$(pwd)/../../../platform/linux
+
 
 codelite
     https://github.com/eranif/codelite
@@ -83,31 +81,30 @@ codelite
 Solar2DTux/plaform/linux
 
     ln -s ./include/wx-3.1/wx
-
-    Solar2DSimulator
-        linux_rtt.project
     
-    car
-        car.project
-
-    Solar2DConsole
-        Solar2DTuxConsole.project
-
-    Solar2DBuilder
-        Solar2DBuilder.project
-
-
-    wx-config --libs
-    -L/usr/lib/aarch64-linux-gnu -pthread   -lwx_gtk3u_xrc-3.0 -lwx_gtk3u_html-3.0 -lwx_gtk3u_qa-3.0 -lwx_gtk3u_adv-3.0 -lwx_gtk3u_core-3.0 -lwx_baseu_xml-3.0 -lwx_baseu_net-3.0 -lwx_baseu-3.0 
-
-    -L/home/kwiksher/Documents/wxWidgets-3.1.4/gtk-build/lib
-
-    codelite-make --workspace=Solar2DTux.workspace --project=Solar2DSimulator --config=Release --execute
-    codelite-make --workspace=Solar2DTux.workspace --project=car --config=Release --execute
-    codelite-make --workspace=Solar2DTux.workspace --project=Solar2DConsole --config=Release --execute
+    cp lib/wx/include/gtk3-unicode-static-3.1/wx/setup.h wx/
+    
     codelite-make --workspace=Solar2DTux.workspace --project=Solar2DBuilder --config=Release --execute
 
-    using jdk header?
+        external/loop-2.3-beta/lua/precompiler.constant.lua
+        
+        bin/linux/lua2c.sh
+            ../../bin/mac/lua2c.sh $1 $2 $3 $4 /usr/bin
+
+    ./setup_dev.sh
+
+        sudo cp ../../external/wx/wxWidgets-3.1.4/gtk-build-so/webkit2_extu-3.1.4.so /usr/local/lib/wx/3.1.4/web-extensions/webkit2_extu-3.1.4.so
+
+
+    codelite-make --workspace=Solar2DTux.workspace --project=Solar2DConsole --config=Release --execute
+
+    codelite-make --workspace=Solar2DTux.workspace --project=Solar2Dcar --config=Release --execute
+
+    codelite-make --workspace=Solar2DTux.workspace --project=Solar2DSimulator --config=Release --execute -d clean
+
+    codelite-make --workspace=Solar2DTux.workspace --project=Solar2DSimulator --config=Release --execute
+
+caveats
+
+    using jdk header in Solar2DSimulator?
         $(IncludeSwitch)/usr/lib/jvm/java-14-openjdk/include/ $(IncludeSwitch)/usr/lib/jvm/java-14-openjdk/include/linux/ 
-
-
