@@ -72,8 +72,10 @@
 * openssl
     
     * https://wiki.openssl.org/index.php/Compilation_and_Installation
-
+    
+    <br>
     make lib
+    
     ```
     cd external/openssl/openssl-1.1.1h
     
@@ -88,8 +90,10 @@
 
     * https://curl.se/docs/install.html
     * https://raspberrypi.stackexchange.com/questions/96646/installing-multiple-versions-of-curl-on-raspbian-stretch
-
+    
+    <br>
     make lib
+    
     ```
     cd external/curl/curl-7.64.1
     
@@ -102,8 +106,10 @@
 * CryptoPP
     * https://www.cryptopp.com/wiki/Linux_(Command_Line)
     * https://github.com/weidai11/cryptopp/blob/master/Install.txt
-
+    
+    <br>
     make lib
+    
     ```
     cd external/CryptoPP/cryptopp-master
     
@@ -115,7 +121,7 @@
 * codelite
 
     * https://github.com/eranif/codelite
-
+   <br>
     build codelite
 
     ```
@@ -145,7 +151,7 @@
         ```
         cp lib/wx/include/gtk3-unicode-static-3.1/wx/setup.h wx/
         ```
-
+   <br>
     build each project of solar2D
 
     * renamed and modifed Solar2DTux.workspace 
@@ -153,6 +159,7 @@
         * linux_rtt.project to Solar2DSimulator.project
         * car.project       to Solar2Dcar.project
 
+         <br>
         Solar2DTux.workspace
 
             ```
@@ -167,9 +174,14 @@
         * Solar2DSimulator
         * Solar2DConsole
 
+        <br>
         changes in .project files due to lib and include path
 
         ```
+        <IncludePath Value="./include"/>
+        <IncludePath Value="./wx/include"/>
+        
+        <Linker Options="-export-dynamic ./lib/libcryptopp.a ./lib/libcurl.a ./lib/libssl.a ./lib/libcrypto.a ./lib/libwx_gtk3u-3.1.a ./lib/libwx_gtk3u_gl-3.1.a ./lib/libwxtiff-3.1.a ./lib/libwxregexu-3.1.a -lGL -lopenal -lgdk-3 -lpangocairo-1.0 -lgthread-2.0 -pthread -lX11 -lXxf86vm -lSM -lgtk-3 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lXtst -lpangoft2-1.0 -lpango-1.0 -lfontconfig -lfreetype -lpng -lz -lexpat -ljpeg -ldl -lm -lwebkit2gtk-4.0 -ljavascriptcoregtk-4.0 -lgstreamer-1.0 -lgstvideo-1.0" Required="yes"/>
 
         ```
 
@@ -204,7 +216,7 @@
         ```    
         codelite-make --workspace=Solar2DTux.workspace --project=Solar2DBuilder --config=Release --execute
         ```
-
+         <br>
         Fixes in the project file for compiling errors
 
         * external/loop-2.3-beta/lua/precompiler.constant.lua
