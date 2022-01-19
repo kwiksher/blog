@@ -1,15 +1,14 @@
 # What is Kwik?
 <div style="text-align: right;">
-Naoya Yamamoto, Kwiksher LLP, July 2018
+Naoya Yamamoto Jan 2022
 </div>
 
 ```
-As of an Adobe photoshop extension, Kwik simplfies the creation of interactive,
-animated contents as apps for iOS, Android, HTML5, Mac&Windows computers.
-Kwik prdouces source codes and image assets for Corona SDK that builds application binaries.
+As of an Adobe photoshop extension, Kwik simplfies the creation of interactive storytelling apps for iOS, Android, HTML5, Mac&Windows computers.
+Kwik prdouces source codes and image assets for Solar2D game engine that builds application binaries.
 ```
 
->Corona SDK is a product of [Corona Labs Inc.](https://coronalabs.com/)
+>Solar2D is a a fully open source project https://solar2d.com/
 
 * App Development Extension for Photoshop. 
 
@@ -39,7 +38,7 @@ Kwik prdouces source codes and image assets for Corona SDK that builds applicati
         <img src="./img/kwik03.jpg" width=400>
 
 ---
-## Digital Publishing Market
+## Digital Publishing Market in 2018
 * Artifacts for consumers
     * Storybooks/Comics(Manga)
         * mini games
@@ -84,21 +83,7 @@ https://www.hexaresearch.com/research-report/e-book-market)
 You can see more in [Book store research](bookstores.md)
 
 ---
-## DevOps
-* Tool&Product - **Kwik**
-* Service
-    * supports
-* Distribution
-    * a shop of printed books or goods or digital contents
-* Cloud 
-    * 3rd parties' MbaaS or own back-end service
-        * Asset Management
-* Publisher
-    * produces storybooks or comics with authors and creators
-    * make own storybooks or comics with an internal team
-
----
-### **Kwik**
+### Programming Market in 2018
 * Time to Market is Key
     * Most creatives don't code
     * Interactive programming is hard
@@ -123,37 +108,27 @@ You can see more in [Book store research](bookstores.md)
 
 
 ----
-## Disruptive Workflow
-* **Disrupt** Traditional Publishing - not need to hire/ir staff up costly traditional programmers
-* **Disrupt** Aspiring JK Rowling's authors don't need to learn how to code or pay publishers to get into the digital market. They get to keep major % share
+## No-Code Tool 
+* **Disrupts** Traditional Publishing - not need to hire/ir staff up costly traditional programmers
+* Aspiring JK Rowling's authors don't need to learn how to code or pay publishers to get into the digital market. They get to keep major % share
     * DIY or hire a creator instead of a traditional programmer
     * better to ride on Kwik/Corona SDK in the cross platforms
-* **Disrupt** creators or non-programmers earn by means of developing apps
+* creators or non-programmers earn by means of developing apps
 
 ---
-## [Designing Self Publishing](https://www.kwiksher.com/doc/design.html)
+## [Designing Self Publishing](https://kwiksher.com/doc/design/)
+
 * "Build your own dreams, or someone else will hire you to build theirs" -- Farrah Gray
 
 * Kwik is the tool for the self publishing apps
     * No Revenue Share
-    * Less than $300
     * Creating an app inside Photoshop
-
-* Free to download and to start making an app.
-    * Basic License 
-        * Free
-        * up to create 6 pages per app
-    * Pro License 
-        * $249.99, 
-        * email support
-        * max 200 pages
-        * particle editor
-        * bookshelf feature
+    * Free to download and to start making an app.
 
 ---
 ## Showcases
-Our customers have been making great storybooks with Kwik
-You can see more of them in [Kwik showcase](https://kwiksher.com/showcase/)
+
+You can see great storybooks made with Kwik in [Kwik showcase](https://kwiksher.com/showcase/)
 
 * [Scribbaloo Train](https://kwiksher.com/portfolios/scribbaloo-train/) from [Scribbaloo Limited](http://scribbaloo.com/index.html)
 
@@ -169,17 +144,23 @@ Not listed in the show case but this is the recent app made with Kwik from [Tang
 
     <img src="./img/instrumentos-musicales-ipad_01.jpg" width=300>
 
+Mnejik-Pot is a bookshelf styled app which multi lingal languages are supported
+
+* [Menjik-Pot](https://apps.apple.com/us/app/menjik-pot/id1489566468)
+
+   <img src="https://pbs.twimg.com/media/EtM1PHDXUAE765F?format=jpg&name=medium" width=300>
+
 <img src="./img/kwikshowcase.png" width=600>
 
 ---
 ## Samples in Tutorial of Kwik
 
 Recently added
-* [Speech To Text, Text To Speech](https://kwiksher.com/doc/tutorials/kwik/audio/voice2text.html)
+* [Speech To Text, Text To Speech](https://kwiksher.com/doc/kwik_tutorial/audio/voice2text/)
 
     <img src="./img/v2t 01.jpg" width=300>
 
-* [Simple Comic](https://kwiksher.com/doc/tutorials/kwik/page_controls/comic_simple.html) (HTML5)
+* [Simple Comic](https://kwiksher.com/doc/kwik_tutorial/page_controls/comic_simple/) (HTML5)
     
     <img src="./img/comic 0000.jpg" width=300>
 
@@ -193,7 +174,7 @@ Coming soon
 
     <img src="./img/fb_instant.jpg" width=300>
 
-You can download each sample project from [kwik Tutorial](https://kwiksher.com/doc/design/kwik.html)
+You can download each sample project of [kwik Tutorial](https://kwiksher.com/doc/kwik_tutorial/)
 
 * Animations
     * Auto Flip
@@ -244,36 +225,41 @@ You can download each sample project from [kwik Tutorial](https://kwiksher.com/d
 
 ---
 ## Kwiksher
-Limited Liability Partnership started in 2014.11.25
-* Adddress
-    * Ueno Suzuki Bld. 4F 3-16-3 Ueno, Titou-ku, Tokyo 110-0015
+
+https://kwiksher.com
+
+* Contact 
     * support@kwiksher.com
-    * https://kwiksher.com
     * Social
         * https://www.facebook.com/kwiksher/
         * https://twitter.com/kwiksher
 
 * Naoya Yamamoto
+    
+    https://github.com/kwiksher
+
     * Software Engineering
-        * Corona
-        * iOS
-        * Android
+        * Solar2D (Lua, C++, C)
+        * iOS (objective-c, swift)
+        * Android(java, kotolin)
         * Wordpress (PHP)
         * Adobe ExtendedScript (JSX)
-            * HTML5 (CSS, JQuery)
-        * Node.js
-        * Photoshop
+            * HTML5 (CSS, JQuery, React, Angular, Vue)
+        * Node.js (typescript)
+        * Adobe Photoshop
+        * Adobe Animate
         * Spine
     * QA & Support
     * Biz/Account Management
     * Personal Experience is here in LinkedIn [@ymmtny](https://www.linkedin.com/in/ymmtny/)
+
         * As an embedded software enginneer, Yamamoto spent almost 10 years in development of Japanese mobile phones with Adobe FlashLite player 2002-2013
-* [GClue](http://www.gclue.com/) is a software house making various apps
-    * [casual games in Google Play](https://play.google.com/store/search?q=gclue)
-    * [casual games in Apple Store](https://itunes.apple.com/jp/developer/gclue-inc/id290600210)
+        * 2014-, taking management & develoment of Kwiksher. 
 
 
 * History
+    * Feb 2022 
+        * Kwik 4.5 All the features of Kwik4 is free.    
     * June 2018
         * Kwik 4.1 update
     
@@ -313,7 +299,14 @@ Limited Liability Partnership started in 2014.11.25
 
 * [Unity for 2D](https://unity.com/solutions/2d)
 
-## Corona SDK
+## Solar2D Game Engine
+
+https://solar2d.com/
+
+* [Wikipdia Solar2D](https://en.wikipedia.org/wiki/Solar2D)
+
+    Solar2D (formerly Corona SDK) is a free and open-source, cross-platform software development kit originally developed by Corona Labs Inc. and now maintained by Vlad Shcherban.
+
 * [The Best 15 Mobile Game Development Platforms & Tools in 2018](https://thetool.io/2018/mobile-game-development-platforms)
 
     Corona SDK is a cross-platform that uses the Lua scripting language which is pretty easy to learn and code with. You can make use of its 2D features and find many plugins in the Corona Market place. Corona is famous for their clear documentation and their supportive and active community. It also brings a real-time simulation that will help you to see how your app will look like after changes.
