@@ -4,13 +4,13 @@ Naoya Yamamoto Jan 2022
 </div>
 
 ```
-As of an Adobe photoshop extension, Kwik simplfies the creation of interactive storytelling apps for iOS, Android, HTML5, Mac&Windows computers.
+A plugin for Adobe photoshop - Kwik simplfies the creation of interactive storytelling apps for iOS, Android, HTML5, Mac&Windows computers.
 Kwik prdouces source codes and image assets for Solar2D game engine that builds application binaries.
 ```
 
 >Solar2D is a a fully open source project https://solar2d.com/
 
-* App Development Extension for Photoshop. 
+* App Development
 
 * Multilingual is supported
 
@@ -21,11 +21,11 @@ Kwik prdouces source codes and image assets for Solar2D game engine that builds 
     [![Kwik Intro Yoututbe](./img/kwik.png)](https://www.youtube.com/watch?v=jVq3fiwP2tQ)
 
 * UI
-    * Kwik Panel 
+    * Kwik Panel
 
         <img src="./img/kwik00.png" width=800>
 
-    * New Project 
+    * New Project
 
         <img src="./img/kwik01.jpg" width=300>
 
@@ -33,7 +33,7 @@ Kwik prdouces source codes and image assets for Solar2D game engine that builds 
 
         <img src="./img/kwik02.jpg" width=500>
 
-    * Setting 
+    * Setting
 
         <img src="./img/kwik03.jpg" width=400>
 
@@ -68,7 +68,7 @@ https://www.hexaresearch.com/research-report/e-book-market)
 
 
 * Kidoz content. Image Credit belonged to Kidoz
-    
+
     <img src="./img/kidoz.jpg" width=500>
 
 * pickatale content. Image Credit belonged to picatale
@@ -108,7 +108,7 @@ You can see more in [Book store research](bookstores.md)
 
 
 ----
-## No-Code Tool 
+## No-Code Tool
 * **Disrupts** Traditional Publishing - not need to hire/ir staff up costly traditional programmers
 * Aspiring JK Rowling's authors don't need to learn how to code or pay publishers to get into the digital market. They get to keep major % share
     * DIY or hire a creator instead of a traditional programmer
@@ -138,7 +138,7 @@ You can see great storybooks made with Kwik in [Kwik showcase](https://kwiksher.
 
     <img src="./img/bc_screenshot_04_eng.jpg" width=300>
 
- 
+
 Not listed in the show case but this is the recent app made with Kwik from [TangibleFun](http://www.tangiblefun.com)
 * [Instruments sounds app](http://www.tangiblefun.com/instruments-sounds-app/)
 
@@ -161,7 +161,7 @@ Recently added
     <img src="./img/v2t 01.jpg" width=300>
 
 * [Simple Comic](https://kwiksher.com/doc/kwik_tutorial/page_controls/comic_simple/) (HTML5)
-    
+
     <img src="./img/comic 0000.jpg" width=300>
 
 * [Reading Photo image and camera to read QR Code](https://kwiksher.com/blog/2018/06/04/photo-image-and-qr-scanner/)
@@ -228,14 +228,14 @@ You can download each sample project of [kwik Tutorial](https://kwiksher.com/doc
 
 https://kwiksher.com
 
-* Contact 
+* Contact
     * support@kwiksher.com
     * Social
         * https://www.facebook.com/kwiksher/
         * https://twitter.com/kwiksher
 
 * Naoya Yamamoto
-    
+
     https://github.com/kwiksher
 
     * Software Engineering
@@ -254,22 +254,22 @@ https://kwiksher.com
     * Personal Experience is here in LinkedIn [@ymmtny](https://www.linkedin.com/in/ymmtny/)
 
         * As an embedded software enginneer, Yamamoto spent almost 10 years in development of Japanese mobile phones with Adobe FlashLite player 2002-2013
-        * 2014-, taking management & develoment of Kwiksher. 
+        * 2014-, taking management & develoment of Kwiksher.
 
 
 * History
-    * Feb 2022 
-        * Kwik 4.5 All the features of Kwik4 is free.    
+    * Feb 2022
+        * Kwik 4.5 All the features of Kwik4 is free.
     * June 2018
         * Kwik 4.1 update
-    
+
     * Dec 2017
         * 31st of December, Kwik 3.x official support ended
 
     * November 2016
         * Kwik 4.0 release
 
-    * November 2014 
+    * November 2014
         * Kwiksher LLP started in Tokyo.
     * September 2014
         * Kwiksher is under new management and [Alex’s farewell](https://kwiksher.com/blog/2014/09/02/kwiksher-future/)
