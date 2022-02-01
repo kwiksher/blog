@@ -2,21 +2,21 @@
 
 Available from [Adobe Exchange Market](https://exchange.adobe.com/creativecloud.details.100661.kwik-4.html)
 
-- Removed License registoration, transfer license from Settings
-- Particle editing is availbale
+- Removed License registration and transfer license from Settings
+- Particle editing is available
 
 kwik4tmplt repository contains the latest tmplt files. You can clone it into your Kwik project.
 
-- first delete the current tmplt folder
-- then git cline it naming with tmplt
+- Firstly, delete the current tmplt folder
+- then git clone it naming with tmplt
 
-	```
-	git clone https://github.com/kwiksher/kwik4tmplt tmplt
-	```
+    ```
+    git clone https://github.com/kwiksher/kwik4tmplt tmplt
+    ```
 
 Update Doc
-* **[Kwik is Free](https://kwiksher.com/doc/kwik/toolset/project_and_pages/project_properties/publish.html)**
-* [Getting Started](http://kwiksher.com/doc/tutorials/kwik/publish/ios11_corona_updates.html)
+-  **[Kwik is Free](https://kwiksher.com/doc/tools/kwik/)**
+- [Getting Started](https://kwiksher.com/doc/getting_startted/)
 
 About Bookshelf
 
@@ -25,17 +25,17 @@ About Bookshelf
 
 
 
-## Github Sponsership
+## Github Sponsorship
 
-Do you Become a sponsor to Kwiksher?
+Do you become a sponsor to Kwiksher?
 
 - [https://github.com/sponsors/kwiksher](https://github.com/sponsors/kwiksher)
 
-I stopped a license sale. I would like to spend time on making Kwik5 on Adobe UXP platform rather than using time on marketing or promoting it.
+I stopped a license sale. I would like to make Kwik5 on the new Adobe UXP platform rather than spending some time on marketing or promoting sales.
 
-Kwik4 is a CEP plugin for Adobe Photoshop. It was made of a good jQuery and JSX.
+Kwik4 is a CEP plugin for Adobe Photoshop. It was made of a good jQuery library and JSX.
 
-Adobe introduced UXP platform for making plugins. I will start a prototyping Kwik5 with Vue or React on UXP.
+As of studying UXP platform for making plugins, I am prototyping Kwik5 with Vue or React on UXP now.
 
 <br>
 Best regards <br>
