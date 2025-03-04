@@ -50,7 +50,7 @@ Press Conference on January 30, 2025
 <br>
 <br>
 
-Oonuki Taeko was the narrator in Japanse version 1996, and she also released a song LULU with Ryuichi Sakamoto in 1997
+Oonuki Taeko was the narrator in the Japanese version in 1996, and she also released the song 'LULU' with Ryuichi Sakamoto in 1997
 
 [19th Album: LUCY](https://onukitaeko.jp/en/project/lucy/)
 
