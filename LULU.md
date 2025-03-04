@@ -38,15 +38,11 @@ Original French Version in 1995
 ---
 <!-- _header: kwiksher.com  -->
 
-<div class="colwrap">
-<div class="left">
 Press Conference on January 30, 2025
 <br>
 <br>
 <br>
 <img src="https://github.com/kwiksher/blog/raw/master/img/Lulu/Screenshot 2025-03-03 at 12.07.32.png" width="600">
-</div>
-<div class="right">
 <br>
 <br>
 
@@ -59,7 +55,6 @@ Oonuki Taeko was the narrator in the Japanese version in 1996, and she also rele
 - Arto Lindsay(6,7)
 - Ryuichi Sakamoto & Arto Lindsay(8)
 
-</div>
 
 ---
 
