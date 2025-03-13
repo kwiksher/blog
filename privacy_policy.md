@@ -1,9 +1,9 @@
 # Privacy Policy
-Last Updated: May 25, 2018
+Last Updated: May 13, 2025
 
 ## Who we are
 
-Kwiksher LLP. (“Kwiksher”) operates the website of kwiksher.com. It is Kwiksher’s policy to respect your privacy regarding any information we may collect while operating our websites.
+Naoya Yamamoto (“Kwiksher”) operates the website of kwiksher.com. It is Kwiksher’s policy to respect your privacy regarding any information we may collect while operating our websites and mobile applications.
 
 * https://kwiksher.com.
 * <a href="https://kwiksher.com/about-us/"> About Us </a>
@@ -14,13 +14,25 @@ Your privacy is very important to us. At Kwiksher we have a few fundamental prin
 
 * We don’t share your personal information with anyone except to comply with the law, develop our products, or protect our rights.
 
-* We don’t store personal information on our servers unless required for the on-going operation of our site.
+* We don’t store personal information on our servers unless required for the on-going operation of our site or mobile applications.
 
-* Once data is no longer needed, we will delete it. This will probably be after 25th of May 2018.
+* Once data is no longer needed, we will delete it.
 
 * we aim to fully support the GDPR standard, but also acknowledging that much is still to be done technically, in order for us to fulfill this mission.
 
 ---
+
+## Mobile Application Privacy
+
+Kwiksher develops mobile applications, primarily games. In regards to these applications:
+
+* **No Collection of Personal Information:** Kwiksher applications do not collect or store any personally identifiable information, including but not limited to email addresses, names, phone numbers, or location data.
+* **Data Usage:** Kwiksher applications may collect anonymous usage data for the purpose of improving application performance and user experience. This data does not identify individual users.
+* **Third-Party Services:** Some Kwiksher applications may integrate with third-party services, such as advertising networks or analytics platforms. These third parties may collect anonymous usage data in accordance with their own privacy policies. Kwiksher is not responsible for the privacy practices of these third parties.
+* **Children's Privacy:** Kwiksher is committed to protecting the privacy of children. Our applications are designed to comply with applicable children's privacy laws, such as the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under the age of 13.
+* **Advertising:** Certain Kwiksher applications may display advertisements. These advertisements may be delivered by third-party advertising networks, which may collect anonymous usage data for the purpose of delivering targeted advertisements.
+* **In-App Purchases:** If a Kwiksher application offers in-app purchases, we do not collect or store any payment information. All payment transactions are processed through the applicable app store (e.g., Apple App Store, Google Play Store).
+
 ## What personal data we collect and why we collect it
 
 * Our data storage is a self-hosted Siteground instance of WordPress, using Wordpress's database to capture and store your e-mail. We use this e-mail to notify you of our progress. You are welcome to opt-out at any time.
@@ -31,25 +43,20 @@ Your privacy is very important to us. At Kwiksher we have a few fundamental prin
 
 * We will not without your express consent provide your personal information to any third parties for the purpose of direct marketing.
 
-* All our website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com. We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
-
-
 We may use your personal information to:
 
-1. administer the website;
-1. improve your browsing experience by personalizing the website;
-1. enable your use of the services available on the website;
-1. send to you goods purchased via the website, and supply to you services purchased via the website;
-1. send statements and invoices to you, and collect payments from you;
-1. send you general (non-marketing) commercial communications;
-1. send you email notifications which you have specifically requested;
-1. send to you [our newsletter and other] marketing communications relating to our business which we think may be of interest to you, where you have specifically agreed to this, by email or similar technology (you can inform us at any time if you no longer require marketing communications)
-1. provide third parties with statistical information about our users – but this information will not be used to identify any individual user;
-1. deal with enquiries and complaints made by or about you relating to the website; and
-1. other uses.
-
+1.  administer the website and mobile applications;
+2.  improve your browsing and application experience by personalizing the website and applications;
+3.  enable your use of the services available on the website and applications;
+4.  send you general (non-marketing) commercial communications;
+5.  send you email notifications which you have specifically requested;
+6.  send to you \[our newsletter and other] marketing communications relating to our business which we think may be of interest to you, where you have specifically agreed to this, by email or similar technology (you can inform us at any time if you no longer require marketing communications)
+7.  provide third parties with statistical information about our users – but this information will not be used to identify any individual user;
+8.  deal with enquiries and complaints made by or about you relating to the website and applications; and
+9.  other uses.
 
 ### Community Forum and Comments
+
 * When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
 
 * Comments may be checked through an automated spam detection service.
@@ -59,14 +66,17 @@ We may use your personal information to:
 * Comments and other content submitted to Akismet anti-spam service are not saved on our servers unless they were marked as false positives, in which case we store them long enough to use them to improve the service to avoid future false positives.
 
 ### Media
+
 * If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
 
 ### Showcase and Contact forms
+
 * Information submitted through the showcase or contact form on our site is sent to our company email, hosted by Siteground.
 
 * These submissions are only kept for customer service purposes they are never used for marketing purposes or shared with third parties.
 
 ### Cookies
+
 * If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
 
 * If you have an account and you log in to this site, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
@@ -75,77 +85,18 @@ We may use your personal information to:
 
 * If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
 
-* The complete table of cookies in kwiksher.com is found at the bottom of this page. Here is the list of the names
-
-    * Strictly Necessary: kwiksher.com(WP-SpamShield, gdpr-wp, woocommerce), paypal
-
-        ```
-        PHPSESSID
-        SJECT16
-        JCS_INENREF
-        JCS_INENTIM
-        gdpr[allowed_cookies]
-        gdpr[consent_types]
-        woocommerce_cart_hash
-        woocommerce_items_in_cart
-        woocommerce_recently_viewed
-        wordpress_[serial_num]
-        wordpress_logged_in_[serial_num]
-        wordpress_sec_[serial_num]
-        wordpress_test_cookie
-        wp_woocommerce_session_[serial_num]
-        AKDC
-        akavpau_ppsd
-        ```
-    * Functionality: kwiksher.com, youtube.com
-        ```
-        wp-saving-post
-        wp-settings-[serial_num]
-        wp-settings-time-[serial_num]
-        VISITOR_INFO1_LIVE
-        YSC
-        GPS
-        PREF
-        ```
-
-    * Performance(Analytic): kwiksher.com(Google Analytics)
-        ```
-        __utma
-        __utmb
-        __utmc
-        __utmz
-        _ga
-        _gid
-        _gat
-        ```
-
-    * Advertising: doubleclick.net, adroll.com, bidswitch.net, openx.net, adnxs.com, rlcdn.com
-        ```
-        test_cookie
-        IDE
-        __adroll
-        tuuid
-        tuuid_lu
-        c
-        i
-        sess
-        uuid2
-        anj
-        rtn1-z
-        rlas3
-        ck1
-        ```
-
 ### Embedded content from other websites
+
 * Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
 
-* These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with the embedded content if you have an account and are logged in to that website.
+* These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracing your interaction with that embedded content if you have an account and are logged in to that website.
 
 #### TWITTER
 
 * The Twitter API to display our tweets timeline on our site. Twitter has its own cookie and privacy policies over which we have no control. Your IP is not sent to a Twitter server until you consent to it. See their privacy policy here: [Twitter Privacy Policy](https://twitter.com/privacy) .
 
 #### YOUTUBE
+
 * YouTube videos are embedded on our site. YouTube has its own cookie and privacy policies over which we have no control. There is no installation of cookies from YouTube and your IP is not sent to a YouTube server until you consent to it. See their privacy policy here: [YouTube Privacy Policy](https://www.youtube.com/static?template=privacy_guidelines).
 
 ### Analytics
@@ -154,39 +105,15 @@ We may use your personal information to:
 
 * Google Analytics on our site for anonymous reporting of site usage. So, no personalized data is stored. If you would like to opt-out of Google Analytics monitoring your behavior on our site please use this link: [Google Analytics Opt-out](https://tools.google.com/dlpage/gaoptout/).
 
+
 ---
+
 ## Who we share your data with
 
 * At times it may become necessary or desirable to Kwiksher, for legal purposes, to release your information in response to a request from a government agency or a private litigant.
 
-* We don’t share your data with third-parties in a way as to reveal any of your personal information like email, name, etc. The only exceptions to that rule are for PayPal and Money Forward. We have to share limited data with in order to provide the payment transaction with PayPal and Money Forward.
+* We don’t share your data with third-parties in a way as to reveal any of your personal information like email, name, etc.
 
-### Paypal
-
-* Website financial transactions are handled through our payment services provider, PayPal. You can review the PayPal privacy policy at www.paypal.com.
-
-* We will share information with PayPal only to the extent necessary for the purposes of processing payments you make via our website and dealing with complaints and queries relating to such payments.
-
-### Money Forward
-
-* Our financial management service, Money Forward accesses Paypal for Website financial transactions in order to migrate the payment records to our account of Money Forward. You can review the Money Forward privacy policy at [www.moneryforward.com](https://corp.moneyforward.com/en/privacy/)
-
-* We will share information with Monery Forward only to the extent necessary for our financial managemnt.
-
----
-## How long we retain your data
-* If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
-
-* For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
-
-## What rights you have over your data
-* If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
-
-* Since GDPR and the tools we seek to provide a basis for, is not yet in place, we can’t offer you an easy way to see, retrieve and delete data from our servers.
-
-* Should you wish to have your data collected, we ask you to reach out to us on e-mail: support@kwiksher.com
-
----
 ### How we protect your data
 
 * We use the SSL/HTTPS protocol throughout our site. This encrypts our user communications with the servers so that personal identifiable information is not captured/hijacked by third parties without authorization.
@@ -197,29 +124,7 @@ We may use your personal information to:
 
 ### What third parties we receive data from
 
-* We may receive information about you from third parties.  participate in a third party application or feature (such as a Facebook or Twitter application or a similar application or feature on a third party website) through which you allow us to collect (or the third party to share) information about you, including AA Data and Personal Data, such as lists of your friends, “likes”, comments you have shared, groups and location.
-
-* In addition, we may receive information about you if other users of a third party website give us access to their profiles and you are one of their “connections”, or information about you is otherwise accessible through your “connections” web page, profile page, or similar page on a social networking or other third party website or interactive service.
-
-* We may also receive information about you from third party data providers. We may supplement the information we collect about you through this Website with such information from third parties in order to enhance our ability to serve you, to tailor our content to you or to offer you opportunities to purchase products or services that we believe may be of interest to you.
-
-### What automated decision making and/or profiling we do with user data
-
-* we do not have a automated decision making nor a profiling wih user data
-
----
-## Updates to This Privacy Policy
-* We may amend this Privacy Policy from time to time. When we amend this Privacy Policy, we will update this page accordingly and require you to accept the amendments in order to be permitted to continue using our services.
-
-## Contact Us
-
-* If you have questions about this privacy policy, you may contact us at support@kwiksher.com. You may also write to us at:
-
-    ```
-    Kwiksher LLP
-    Attn: Privacy
-    Ueno Suzuki Bldg. 4F, 3-16-3, Ueno,, Titou-ku, Tokyo 110-0005
-    ```
+* We may receive information about you from third parties.
 
 ---
 #### Coolie Table
